@@ -22,8 +22,8 @@ This schedule is tentative and may change as the course progresses.
 | 8 | 01.30.2025 | Supervised Machine Learning I <br> *KNN / Logistic Regression* | |
 | 9 | 02.04.2025 | Supervised Machine Learning II <br>  *ROC-AUC / K-Fold / Multi-Class* | |
 | 12 | 02.06.2025 | Supervised Machine Learning III <br> *Decision Trees / Ensembles* | H.03 |
-| 10 | 02.09.2025 | Midterm Exam | |
-| 11 | 02.11.2025 | Dimensionality Reduction | |
+| 10 | 02.11.2025 | Midterm Exam | |
+| 11 | 02.13.2025 | Dimensionality Reduction | |
 | 13 | 02.18.2025 | Clustering Algorithms | |
 | 14 | 02.20.2025 | Recommendation Modeling | H.04 |
 | 15 | 02.25.2025 | Time Series Analysis | |
