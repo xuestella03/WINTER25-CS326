@@ -26,19 +26,7 @@ revealOptions:
 <!--s-->
 
 L.01-Q.01
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfF_yQgyTQzhPsBytx3CRji4T0CVxXhCdPEAP-uUeLn3hrbug/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div>        <!--s-->
-
-## Data Science | Introduction
-
-
-Data Science sits at the intersection of computer science, statistics, and domain expertise. It is the process of extracting knowledge and insights from data.
-
-<div class="col-centered" style="flex-direction: row; height: 70%">
-<img src="https://images.ctfassets.net/piwi0eufbb2g/5Hdeb5PTf26EFdny0gZK3H/e47cbc2744c334ffefa58c5160e3b2d3/what_data_science_.jpg">
-<p style="text-align: center; font-size: 0.5em; color: grey;">Topcoder 2020</p>
-</div>
-
-<!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfMW1xUXcTcLGKn2sW2b3diEJGJwmD27EBxZSKLM7aFzJwNKw/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 ## Data Science | Structure
 
@@ -213,18 +201,7 @@ We are here to help you! Please try contacting us through office hours or the de
 <!--s-->
 
 L.01-Q.02
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdRr5QH1WCtx0IgPbv9KEqtjom3uxwJmFBLxvon0C993Etmhw/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div>        <!--s-->
-
-<div class="header-slide">
-
-# Homework Assignment
-## H.01 "Hello World!"
-
-Due: 01.14.2025
-
-</div>
-
-<!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdRM0c8QcF9OsCsRfZSKqZ_duwECRwRCGAgaBr3jtXcBOc0kg/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 ## H.01 | Installing Conda
 
