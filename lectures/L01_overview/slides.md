@@ -26,11 +26,7 @@ revealOptions:
 <!--s-->
 
 L.01-Q.01
-
-    <div style="height: 100%; width: 100%;">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfYrn6f-J4w1oRUwo5Y4-2wFF3Q1jVcaf0RTT5-Am79aWbL1w/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe>
-    </div>
-        <!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfF_yQgyTQzhPsBytx3CRji4T0CVxXhCdPEAP-uUeLn3hrbug/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div>        <!--s-->
 
 ## Data Science | Introduction
 
@@ -217,11 +213,7 @@ We are here to help you! Please try contacting us through office hours or the de
 <!--s-->
 
 L.01-Q.02
-
-    <div style="height: 100%; width: 100%;">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeNLfQSzn2FJD6TZf-ou9_HNxB8dn028mNQGQM-o12U96yFBg/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe>
-    </div>
-        <!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdRr5QH1WCtx0IgPbv9KEqtjom3uxwJmFBLxvon0C993Etmhw/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div>        <!--s-->
 
 <div class="header-slide">
 
