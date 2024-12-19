@@ -26,20 +26,7 @@ revealOptions:
 <!--s-->
 
 L.01-Q.01
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfMW1xUXcTcLGKn2sW2b3diEJGJwmD27EBxZSKLM7aFzJwNKw/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
-
-## Data Science | Structure
-
-1. Data Source
-2. Data Exploration
-3. Data Preprocessing
-4. Data Modeling
-5. Data Interpretation
-6. Data Action
-
-CS 326 will cover the **fundamentals** of data science. We will go for breadth, but you will be encouraged throughout the quarter to go into depth.
-
-<!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeMLARFlRUGllN6L5FtLu766RtQrUbUKN7jAJURtcrhJoO8MA/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 ## Course Resources
 
@@ -201,15 +188,7 @@ We are here to help you! Please try contacting us through office hours or the de
 <!--s-->
 
 L.01-Q.02
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdRM0c8QcF9OsCsRfZSKqZ_duwECRwRCGAgaBr3jtXcBOc0kg/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
-
-## H.01 | Installing Conda
-
-We will be using Python for this course. Conda is a package manager that will help us install Python and other packages. 
-
-Don't have <span class="code-span">conda</span> installed? [[click-here]](https://docs.conda.io/en/latest/miniconda.html)
-
-<!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8Z2FqMHGGsBkPriHXS4pPdeYSvtMuB04me94QkJxiitOASg/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 ## H.01 | Cloning Repo & Installing Environment
 
