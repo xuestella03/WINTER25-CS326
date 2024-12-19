@@ -22,16 +22,16 @@ This schedule is tentative and may change as the course progresses.
 | 8 | 01.30.2025 | Supervised Machine Learning I <br> *KNN / Logistic Regression* | |
 | 9 | 02.04.2025 | Supervised Machine Learning II <br>  *ROC-AUC / K-Fold / Multi-Class* | |
 | 12 | 02.06.2025 | Supervised Machine Learning III <br> *Decision Trees / Ensembles* | H.03 |
-| 10 | 02.11.2025 | Midterm Exam | |
+| 10 | 02.11.2025 | Exam Part I | |
 | 11 | 02.13.2025 | Dimensionality Reduction | |
 | 13 | 02.18.2025 | Clustering Algorithms | |
 | 14 | 02.20.2025 | Recommendation Modeling | H.04 |
 | 15 | 02.25.2025 | Time Series Analysis | |
 | 16 | 02.27.2025 | Natural Language Processing <br> *Classical NLP* | |
 | 17 | 03.04.2025 | Natural Language Processing <br> *Modern NLP* | H.05 |
-| 18 | 03.06.2025 | Final Exam Review |  |
+| 18 | 03.06.2025 | Exam Part II Review |  |
 | 19 | 03.11.2025 | Storytelling and Ethics | |
-| 20 | 03.13.2025 | Final Exam |  |
+| 20 | 03.13.2025 | Exam Part II |  |
 
 ------
 
@@ -52,8 +52,8 @@ There is a high emphasis on the practical application of the concepts covered in
 
 | Grade | Percentage |
 | --- | --- |
-| A | 93-100 |
-| A- | 90-92 |
+| A | 94-100 |
+| A- | 90-93 |
 | B+ | 87-89 |
 | B | 83-86 |
 | B- | 80-82 |
@@ -73,11 +73,18 @@ Lectures will be broken down into theory and applications.
 | Break | 5 minutes | ~ |
 | Homework Lab | 20 minutes | Application and Practice |
 
+
+------
+
+## Attendance
+
+Attendance is mandatory for CS 326 and is worth 10% of your final grade. Most lectures will have interactive quizzes throughout the lecture that will be graded for completion. The top 16 quiz scores will be used to calculate your attendance grade, leaving you with 4 freebies throughout the quarter.
+
 ------
 
 ## Homework
 
-Homeworks are designed to reinforce the concepts covered in lecture. They will be a mix of theoretical and practical problems. If there is time, we will work on homework at the end of every lecture as a group.
+Homeworks are designed to reinforce the concepts covered in lecture. They will be a mix of theoretical and practical problems, and each will include a programmatic and free response portion. If there is time, we will work on homework at the end of every lecture as a group. For the automated grading server, you get 2 attempts per homework assignment. The highest score will be recorded.
 
 - **Due**: Homework due dates are posted in the syllabus.
 
@@ -91,21 +98,15 @@ Homeworks are designed to reinforce the concepts covered in lecture. They will b
 | --- | --- | --- |
 | H.01 | 01.14.2025 | Hello, World! |
 | H.02 | 01.28.2025 | Exploratory Data Analysis & Hypothesis Testing |
-| H.03 | 02.13.2025 | Supervised Machine Learning |
-| H.04 | 03.06.2025 | Unsupervised Machine Learning |
-| H.05 | 03.13.2025 | Time Series |
+| H.03 | 02.06.2025 | Supervised Machine Learning |
+| H.04 | 02.20.2025 | Unsupervised Machine Learning |
+| H.05 | 03.04.2025 | Time Series |
 
 ------
 
-## Midterm
+## Exams
 
-There will be a midterm exam covering the content from the first half of the course. It will include both theoretical and practical components.
-
-------
-
-## Final
-
-There will be one quiz towards the end of this course. The quiz will cover the theoretical and practical concepts covered in the lectures and homeworks. If you follow along with the lectures and homeworks, you will be well-prepared for the final exam.
+There are two exams in this class. They will cover the theoretical and practical concepts covered in the lectures and homeworks. If you follow along with the lectures and homeworks, you will be well-prepared for the exams.
 
 ------
 
