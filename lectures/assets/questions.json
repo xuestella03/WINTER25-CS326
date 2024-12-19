@@ -38,6 +38,39 @@
     {
         "slides": "L02_data_sources/slides.md",
         "key": "L.02-Q.02",
+        "question": "You're building a model to predict the price of a house based on its location, size, and number of bedrooms. Which of the following data sources would be a great first place to look?",
+        "options": [
+            "Bulk Downloads",
+            "APIs",
+            "Scraping, Web Crawling",
+            "BYOD (Bring Your Own Data)"
+        ]
+    },
+    {
+        "slides": "L02_data_sources/slides.md",
+        "key": "L.02-Q.03",
+        "question": "You just built an amazing stock market forecasting model. Congrats! Now, you want to test it on real-time data. Which of the following data sources would be a great first place to look?",
+        "options": [
+            "Bulk Downloads",
+            "APIs",
+            "Scraping, Web Crawling",
+            "BYOD (Bring Your Own Data)"
+        ]
+    },
+    {
+        "slides": "L02_data_sources/slides.md",
+        "key": "L.02-Q.04",
+        "question": "You have streaming data that is occasionally dropping values. Which of the following methods would be appropriate to fill missing values when signal fails to update?",
+        "options": [
+            "Forward Fill",
+            "Imputation by interpolation",
+            "Mean value imputation",
+            "Backward fill"
+        ]
+    },
+    {
+        "slides": "L02_data_sources/slides.md",
+        "key": "L.02-Q.05",
         "question": "What is your level of comfort with utilizing different data sources? (e.g. REST APIs, SQL, etc.)",
         "options": [
             "Very Comfortable",
