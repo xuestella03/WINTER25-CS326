@@ -20,6 +20,11 @@ def main():
         key = question['key']
         markdown_path = os.path.join('lectures/', markdown)  # Adjust the path as needed
 
+        # Check if markdown file exists
+        if not os.path.exists(markdown_path):
+            print(f'Markdown "{markdown}" not found')
+            continue
+
         # Read markdown line by line
         with open(markdown_path, 'r') as f:
             lines = f.readlines()
