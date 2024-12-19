@@ -12,7 +12,7 @@ This schedule is tentative and may change as the course progresses.
 
 | Lecture | Date | Topic | Homework Due |
 | --- | --- | --- | --- |
-| 1 | 01.07.2025 | Course Overview | |
+| 1 | 01.07.2025 | [Course Overview](https://drc-cs.github.io/WINTER25-CS326/lectures/L01_overview/#/) | |
 | 2 | 01.09.2025 | Data Collection and Structure | |
 | 3 | 01.14.2025 | Exploratory Data Analysis | H.01 |
 | 4 | 01.16.2025 | Correlation, Association, and Simpson's Paradox | |
