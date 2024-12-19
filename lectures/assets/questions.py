@@ -8,11 +8,7 @@ def main():
     response = requests.get(direct_download_link.content.decode())
     questions = response.json()
 
-    TEMPLATE = """
-    <div style="height: 100%; width: 100%;">
-    <iframe src="{FORM_URL}?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe>
-    </div>
-    """
+    TEMPLATE = """<div style="height: 100%; width: 100%;"><iframe src="{FORM_URL}?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div>"""
 
     # Loop through questions
     for question in questions:
