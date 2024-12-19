@@ -27,8 +27,6 @@ revealOptions:
 
 L.01-Q.01
 
-s
-
 <!--s-->
 
 ## Data Science | Introduction
@@ -63,7 +61,7 @@ Both Canvas and GitHub will be used extensively throughout this course.
 <div class = "col-wrapper">
 <div class="c1" style = "width: 50%">
 
-### Canvas [&#x1F517;](https://canvas.northwestern.edu/courses/217294)
+### Canvas [&#x1F517;](https://canvas.northwestern.edu/courses/226962)
   - Syllabus (with links!)
   - Announcements
   - Grades
@@ -75,7 +73,7 @@ Both Canvas and GitHub will be used extensively throughout this course.
 </div>
 <div class="c2" style = "width: 50%">
 
-### GitHub Repository [&#x1F517;](https://github.com/drc-cs/FALL24-CS326)
+### GitHub Repository [&#x1F517;](https://github.com/drc-cs/WINTER25-CS326)
   - Syllabus (with links!)
   - Lecture slides
   - Homework assignments
@@ -90,7 +88,7 @@ Both Canvas and GitHub will be used extensively throughout this course.
 
 Lectures will be broken down into theory and applications.
 
-We will use **Google Forms** to ensure engagement and understanding during the lecture component, you will not be graded on your responses (just completion).
+We will use **Google Forms** to ensure engagement and understanding during the lecture component, you will not be graded on the content of your responses (just completion).
 
 | Component | Duration | Description |
 | --- | --- | --- |
@@ -117,9 +115,9 @@ There is a high emphasis on the practical application of the concepts covered in
 
 | Component | Weight |
 | --- | --- |
-| Homework | 40% |
-| Project | 30% |
-| Quiz | 20% |
+| Homework | 50% |
+| Exam Part I | 20% |
+| Exam Part II | 20% |
 | Attendance | 10% |
 
 </div>
@@ -127,8 +125,8 @@ There is a high emphasis on the practical application of the concepts covered in
 
 | Grade | Percentage |
 | --- | --- |
-| A | 93-100 |
-| A- | 90-92 |
+| A | 94-100 |
+| A- | 90-93 |
 | B+ | 87-89 |
 | B | 83-86 |
 | B- | 80-82 |
@@ -142,13 +140,13 @@ There is a high emphasis on the practical application of the concepts covered in
 
 ## Homework 
 
-Homeworks are designed to reinforce the concepts covered in lecture. They will be a mix of theoretical and practical problems. If there is time, we will work on homework at the end of every lecture as a group. 
+Homeworks are designed to reinforce the concepts covered in lecture. They will be a mix of theoretical and practical problems, and each will include a programmatic and free response portion. If there is time, we will work on homework at the end of every lecture as a group. For the automated grading server, you get 2 attempts per homework assignment. The highest score will be recorded.
 
 - **Due**: Homework due dates are posted in the syllabus.
 
-- **Late Policy**: Late homeworks will lose 1 out of 8 points per day (1% of your final grade).
+- **Late Policy**: Late homeworks will lose 1 out of 10 points per day (1% of your final grade).
 
-- **Platform**: A submission script has been provided to submit your homeworks. Today we will run through an example of how to submit your first homework assignment.
+- **Platform**: A submission script has been provided to submit your homeworks.
 
 - **Collaboration**: You are encouraged to work with your peers on homeworks. However, you must submit your own work. Copying and pasting code from other sources will be detected and penalized.
 
@@ -160,27 +158,9 @@ Homeworks are designed to reinforce the concepts covered in lecture. They will b
 
 <!--s-->
 
-## Project
+## Exams
 
-You will complete a team project over the course of the semester. The project contains deliverables outlined below. Due dates are posted in the syllabus and assigments are linked as they come up.
-
-- **P.01 Project Proposal**: ~1 page proposal outlining the project, the data, and your group goals.
-
-- **P.02 Milestone**: 10 minute status update, one per group. Elevator-style pitch deck encouraged. 
-
-- **P.03 Presentation**: 20 minute presentation, one per group.
-
-- **P.04 Final Report**: 2 page report, one per group.
-
-Collective ambition and equal contribution is rewarded! A rubric will be posted shortly.
-
-<!--s-->
-
-## Quiz
-
-There will be one quiz at the end of this course. The quiz will cover the theoretical and practical concepts covered in the course. You will have 75 minutes to complete it. 
-
-If you follow along with the lectures and homeworks, you will be well-prepared. The goal is to give you practical experience, not trip you up on small details.
+There are two exams in this class. They will cover the theoretical and practical concepts covered in the lectures and homeworks. If you follow along with the lectures and homeworks, you will be well-prepared for the exams.
 
 <!--s-->
 
@@ -227,9 +207,13 @@ If you are feeling distressed or overwhelmed, please reach out for help. Student
 
 ### **Email**
 
-We are here to help you! Please try the office hours and Canvas discussion first, but feel free to reach out via email if you are still stuck.
+We are here to help you! Please try contacting us through office hours or the dedicated Canvas discussion threads.
 
 - **Joshua D'Arcy (Instructor)**: joshua.darcy@northwestern.edu
+
+<!--s-->
+
+L.01-Q.02
 
 <!--s-->
 
@@ -238,7 +222,7 @@ We are here to help you! Please try the office hours and Canvas discussion first
 # Homework Assignment
 ## H.01 "Hello World!"
 
-Due: 10.01.2024
+Due: 01.14.2025
 
 </div>
 
@@ -258,8 +242,8 @@ We will be using a public GitHub repository for this course. Enter the following
 
 
 ```bash
-git clone https://github.com/drc-cs/FALL24-CS326.git
-cd FALL24-CS326
+git clone https://github.com/drc-cs/WINTER25-CS326.git
+cd WINTER25-CS326
 ```
 
 We will be using a conda environment (cs326) for this course. 
@@ -297,7 +281,7 @@ Add the <span class="code-span">code</span> command to your PATH so you can open
 Restart your terminal and open the cloned repository in VSCode using the following command:
 
 ```bash
-code FALL24-CS326
+code WINTER25-CS326
 ```
 
 You should see the following folders:
@@ -328,7 +312,7 @@ Open the <span class="code-span">homeworks/</span> folder in VSCode. You should 
 
 - <span class="code-span">hello_world.py</span>: This file contains placeholders for the methods you will write.
 
-- <span class="code-span">hello_world_narrative.ipynb</span>: This is a Jupyter notebook that provides a useful narrative for the homework and methods found in the <span class="code-span">hello_world.py</span> file.
+- <span class="code-span">hello_world.ipynb</span>: This is a Jupyter notebook that provides a useful narrative for the homework and methods found in the <span class="code-span">hello_world.py</span> file.
 
 - <span class="code-span">hello_world_test.py</span>: This is the file that will be used to test your code. Future homeworks will not include this file, and this is for demonstration purposes only.
 
@@ -368,9 +352,9 @@ export AG_PASSWORD="your_password"
 
 ## H.01 | Homework Grading
 
-The highest score will be recorded, so long as it is submitted before the deadline! You have 3 attempts for every homework. 
+The highest score will be recorded, so long as it is submitted before the deadline! You have 2 attempts for every homework. 
 
-Late homeworks will be penalized 10% per day, which amounts to ~1% of your final grade.
+Late homeworks will be penalized 10% per day.
 
 <!--s-->
 

@@ -1,0 +1,102 @@
+[
+    {
+        "slides": "L01_overview/slides.md",
+        "key": "L.01-Q.01",
+        "question": "What is your level of comfort with understanding expectations for CS 326?",
+        "options": [
+            "Very Comfortable",
+            "Comfortable",
+            "Neutral",
+            "Uncomfortable",
+            "Very Uncomfortable"
+        ]
+    },
+    {
+        "slides": "L01_overview/slides.md",
+        "key": "L.01-Q.02",
+        "question": "What is your level of comfort with understanding expectations for CS 326?",
+        "options": [
+            "Very Comfortable",
+            "Comfortable",
+            "Neutral",
+            "Uncomfortable",
+            "Very Uncomfortable"
+        ]
+    },
+    {
+        "slides": "L02_data_sources/slides.md",
+        "key": "L.02-Q.01",
+        "question": "What is your level of comfort with utilizing different data sources? (e.g. REST APIs, SQL, etc.)",
+        "options": [
+            "Very Comfortable",
+            "Comfortable",
+            "Neutral",
+            "Uncomfortable",
+            "Very Uncomfortable"
+        ]
+    },
+    {
+        "slides": "L02_data_sources/slides.md",
+        "key": "L.02-Q.02",
+        "question": "What is your level of comfort with utilizing different data sources? (e.g. REST APIs, SQL, etc.)",
+        "options": [
+            "Very Comfortable",
+            "Comfortable",
+            "Neutral",
+            "Uncomfortable",
+            "Very Uncomfortable"
+        ]
+    },
+
+    {
+        "slides": "L03_eda/slides.md",
+        "key": "L.03-Q.01",
+        "question": "What is your level of comfort with exploratory data analysis?",
+        "options": [
+            "Very Comfortable",
+            "Comfortable",
+            "Neutral",
+            "Uncomfortable",
+            "Very Uncomfortable"
+        ]
+    },
+
+    {
+        "slides": "L03_eda/slides.md",
+        "key": "L.03-Q.02",
+        "question": "What is your level of comfort with exploratory data analysis?",
+        "options": [
+            "Very Comfortable",
+            "Comfortable",
+            "Neutral",
+            "Uncomfortable",
+            "Very Uncomfortable"
+        ]
+    },
+
+    {
+        "slides": "L04_correlation_association/slides.md",
+        "key": "L.04-Q.01",
+        "question": "What is your level of comfort with correlation and association analysis?",
+        "options": [
+            "Very Comfortable",
+            "Comfortable",
+            "Neutral",
+            "Uncomfortable",
+            "Very Uncomfortable"
+        ]
+    },
+
+    { 
+        "slides": "L04_correlation_association/slides.md",
+        "key": "L.04-Q.02",
+        "question": "What is your level of comfort with correlation and association analysis?",
+        "options": [
+            "Very Comfortable",
+            "Comfortable",
+            "Neutral",
+            "Uncomfortable",
+            "Very Uncomfortable"
+        ]
+    }
+]
