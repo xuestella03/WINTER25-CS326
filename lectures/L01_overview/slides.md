@@ -26,23 +26,7 @@ revealOptions:
 <!--s-->
 
 L.01-Q.01
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdSGbtjKDBUWiQXl2Sc1-TQG_ea3AKEj0WCZhhaml-7BZWMiQ/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
-
-
-## Lecture Breakdown
-
-Lectures will be broken down into theory and applications.
-
-We will use **Google Forms** to ensure engagement and understanding during the lecture component, you will not be graded on the content of your responses (just completion).
-
-| Component | Duration | Description |
-| --- | --- | --- |
-| Lecture | 55 minutes | Theoretical Foundations |
-| Break | 5 minutes | ~ |
-| Homework Lab | 20 minutes | Application and Practice |
-
-
-<!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTXENS5HWHDS0-4aZKGYmWlnLVMT1l6oFRf7OWEp6qR5vOtw/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 ## Attendance
 
@@ -159,26 +143,7 @@ We are here to help you! Please try contacting us through office hours or the de
 <!--s-->
 
 L.01-Q.02
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf8j9y-0Tf6sUR_MwVbBvNsas68Bl5QLdnldwM228fhnW1YRw/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
-
-## H.01 | VSCode
-
-All demonstrations will be in VSCode, which is a popular IDE. You're welcome to use any IDE you want, but we will be best equipped to help you if you use VSCode.
-
-Don't have <span class="code-span">visual studio code</span> installed? [[click-here]](https://code.visualstudio.com/)
-
-After installing VSCode, you will need to install the Python extension: 
-
-1. Open VSCode
-2. Click on the "Extensions" icon in the "Activity Bar" on the side of the window
-3. Search for "Python" and click "Install"
-
-Add the <span class="code-span">code</span> command to your PATH so you can open VSCode from the terminal.
-
-1. Open the "Command Palette" (Ctrl+Shift+P on PC or Cmd+Shift+P on Mac)
-2. Search for "Shell Command: Install 'code' command in PATH" and click it
-
-<!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCoWO-4bRI3nF7fzYZHFSHKXFjnbgeZBfkNFlWCj9Q-zSEhQ/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 ## H.01 | Opening Repo in VSCode
 
