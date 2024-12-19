@@ -18,7 +18,7 @@ This schedule is tentative and may change as the course progresses.
 | 4 | 01.16.2025 | Correlation, Association, and Simpson's Paradox | |
 | 5 | 01.21.2025 | Hypothesis Testing | |
 | 6 | 01.23.2025 | Data Preprocessing | |
-| 7 | 01.28.2025 | Introduction to Statistical Learning | H.02 |
+| 7 | 01.28.2025 | Statistical Learning | H.02 |
 | 8 | 01.30.2025 | Supervised Machine Learning I <br> *KNN / Logistic Regression* | |
 | 9 | 02.04.2025 | Supervised Machine Learning II <br>  *ROC-AUC / K-Fold / Multi-Class* | |
 | 12 | 02.06.2025 | Supervised Machine Learning III <br> *Decision Trees / Ensembles* | H.03 |
