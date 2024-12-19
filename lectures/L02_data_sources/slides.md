@@ -33,8 +33,7 @@ revealOptions:
 <!--s-->
 
 L.02-Q.01
-
-<!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdzqNfeJ2lnYgs6rvYziy_VRiQQTvt54ktjf_7_eLBSwf11Lw/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 ## Data Sources
 
@@ -174,12 +173,10 @@ Don't collect data that you don't need. Definitely don't collect data that you d
 <!--s-->
 
 L.02-Q.02
-
-<!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpU_zAiiYBDpEEq7gpzLHuxyRryyUjKvwhTTE-kG2YrYf07w/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 L.02-Q.03
-
-<!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdBmCohjRve3qh4BWwixBUAQV3Eu8xRi30gYN0-3ME7wv1qsg/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 <div class = "header-slide">
 
@@ -372,8 +369,7 @@ df_interpolate = df.interpolate()
 <!--s-->
 
 L.02-Q.04
-
-<!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfZsYR39A9u0YLKv2WJTOaXFEseBg_b-UrpgLIC6TMaHGOmuQ/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 ## Data Cleaning | Handling Outliers
 
@@ -403,8 +399,7 @@ Handling outliers should be done on a case-by-case basis. Don't throw away data 
 <!--s-->
 
 L.02-Q.05
-
-<!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdS_BzH7-HBHWwEeCIV2e3rydlqY6bfjtFRu4wVmNliBuxckQ/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 <div class="header-slide">
 
