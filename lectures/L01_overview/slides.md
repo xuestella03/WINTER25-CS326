@@ -26,36 +26,7 @@ revealOptions:
 <!--s-->
 
 L.01-Q.01
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeMLARFlRUGllN6L5FtLu766RtQrUbUKN7jAJURtcrhJoO8MA/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
-
-## Course Resources
-
-Both Canvas and GitHub will be used extensively throughout this course.
-
-<div class = "col-wrapper">
-<div class="c1" style = "width: 50%">
-
-### Canvas [&#x1F517;](https://canvas.northwestern.edu/courses/226962)
-  - Syllabus (with links!)
-  - Announcements
-  - Grades
-  - Discussion threads
-  - Panopto recordings
-  - Homework assignments
-  - Project assignments
-
-</div>
-<div class="c2" style = "width: 50%">
-
-### GitHub Repository [&#x1F517;](https://github.com/drc-cs/WINTER25-CS326)
-  - Syllabus (with links!)
-  - Lecture slides
-  - Homework assignments
-
-</div>
-</div>
-
-<!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdSGbtjKDBUWiQXl2Sc1-TQG_ea3AKEj0WCZhhaml-7BZWMiQ/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 
 ## Lecture Breakdown
@@ -188,28 +159,7 @@ We are here to help you! Please try contacting us through office hours or the de
 <!--s-->
 
 L.01-Q.02
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8Z2FqMHGGsBkPriHXS4pPdeYSvtMuB04me94QkJxiitOASg/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
-
-## H.01 | Cloning Repo & Installing Environment
-
-We will be using a public GitHub repository for this course. Enter the following commands in your terminal to clone the repository and install the class environment.
-
-
-```bash
-git clone https://github.com/drc-cs/WINTER25-CS326.git
-cd WINTER25-CS326
-```
-
-We will be using a conda environment (cs326) for this course. 
-
-```bash
-conda env create -f environment.yml
-conda activate cs326
-```
-
-Don't have <span class="code-span">git</span> installed? [[click-here]](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-
-<!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf8j9y-0Tf6sUR_MwVbBvNsas68Bl5QLdnldwM228fhnW1YRw/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 ## H.01 | VSCode
 
