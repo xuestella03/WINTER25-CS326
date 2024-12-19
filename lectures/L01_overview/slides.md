@@ -27,8 +27,6 @@ revealOptions:
 
 L.01-Q.01
 
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfZQydqu3VitnAXMMwFhMhlFzv9Nu1ygeN8zZ1wuki2c0FdHg/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe><div>
-
 <!--s-->
 
 ## Data Science | Introduction
