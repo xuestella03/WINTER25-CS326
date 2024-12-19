@@ -26,15 +26,7 @@ revealOptions:
 <!--s-->
 
 L.01-Q.01
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTXENS5HWHDS0-4aZKGYmWlnLVMT1l6oFRf7OWEp6qR5vOtw/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
-
-## Attendance
-
-Attendance at lectures is **mandatory** and in your best interest!
-
-You may miss up two lectures without penalty. After that, you will lose 1% of your final grade for each additional missed lecture without a valid excuse.
-
-<!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZf-ynUPVe7n-rlcdM3kHhLySKhBdrT0vyzcDWOiPgVrhY_Q/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 ## Grading
 
@@ -143,23 +135,7 @@ We are here to help you! Please try contacting us through office hours or the de
 <!--s-->
 
 L.01-Q.02
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCoWO-4bRI3nF7fzYZHFSHKXFjnbgeZBfkNFlWCj9Q-zSEhQ/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
-
-## H.01 | Opening Repo in VSCode
-
-Restart your terminal and open the cloned repository in VSCode using the following command:
-
-```bash
-code WINTER25-CS326
-```
-
-You should see the following folders:
-
-- <span class="code-span">README.md</span>: Contains the course syllabus.
-- <span class="code-span">lectures/</span>: Contains the lecture slides in markdown format.
-- <span class="code-span">homeworks/</span>: Contains the homework assignments.
-
-<!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd_p-6zzl3aqVgewDC9LcN3EUUq99M4DRtJlFWrKBuGGsbcBQ/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 ## H.01 | Pulling
 

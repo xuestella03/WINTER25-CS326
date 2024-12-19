@@ -33,32 +33,7 @@ revealOptions:
 <!--s-->
 
 L.02-Q.01
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdzqNfeJ2lnYgs6rvYziy_VRiQQTvt54ktjf_7_eLBSwf11Lw/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
-
-## Data Sources
-
-Data is at the heart of all data science! It's the raw material that we use to build models, make predictions, and draw conclusions. Data can be gathered from a variety of sources, and it comes in many different forms. 
-
-<div class = "col-wrapper">
-<div class = "c1" style = "width: 50%;">
-
-Common Data Sources:
-
-- Bulk Downloads
-- APIs
-- Scraping, Web Crawling
-- BYOD (Bring Your Own Data)
-
-</div>
-
-<div class = "c2" style = "width: 50%">
-
-<img src="https://imageio.forbes.com/blogs-images/gilpress/files/2016/03/Time-1200x511.jpg?format=jpg&width=1440" width="100%">
-<p style="text-align: center; font-size: 0.6em; color: grey;">Forbes 2022</p>
-
-</div>
-
-<!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSegbXYyn49bpp0kslYK2fnxbPJZHCBioW7AVvTgx2VSBSpBYA/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 ## Data Sources | Bulk Downloads
 
@@ -173,17 +148,7 @@ Don't collect data that you don't need. Definitely don't collect data that you d
 <!--s-->
 
 L.02-Q.02
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpU_zAiiYBDpEEq7gpzLHuxyRryyUjKvwhTTE-kG2YrYf07w/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
-
-L.02-Q.03
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdBmCohjRve3qh4BWwixBUAQV3Eu8xRi30gYN0-3ME7wv1qsg/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
-
-<div class = "header-slide">
-
-# Data Structures
-
-</div>
-<!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeI1CuHU1vigd-N_teahMFnaj1FkXARc5P6SmNy5lmESZRPJQ/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 
 ## Data Structures
@@ -369,22 +334,7 @@ df_interpolate = df.interpolate()
 <!--s-->
 
 L.02-Q.04
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfZsYR39A9u0YLKv2WJTOaXFEseBg_b-UrpgLIC6TMaHGOmuQ/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
-
-## Data Cleaning | Handling Outliers
-
-Outliers are extreme values that deviate from other observations on data. They may indicate a variability in a measurement, experimental errors, or a novelty.
-
-Outliers can be detected using:
-
-- **Boxplots**: A visual representation of the five-number summary.
-- **Scatterplots**: A visual representation of the relationship between two variables.
-- **z-scores**: A measure of how many standard deviations a data point is from the mean.
-- **IQR**: A measure of statistical dispersion, being equal to the difference between the upper and lower quartiles.
-
-Handling outliers should be done on a case-by-case basis. Don't throw away data unless you have a very compelling (and **documented**) reason to do so!
-
-<!--s-->
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfbjEn6drZnoP38BBpvhS7voa6Oz0FSr8pzzgDeni58-FB7CA/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 ## Data Cleaning | Keep in Mind
 
@@ -399,10 +349,4 @@ Handling outliers should be done on a case-by-case basis. Don't throw away data 
 <!--s-->
 
 L.02-Q.05
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdS_BzH7-HBHWwEeCIV2e3rydlqY6bfjtFRu4wVmNliBuxckQ/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
-
-<div class="header-slide">
-
-# Questions?
-
-</div>
+<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdkyRuWkJndDwbk1gdpoOvW4QjZ8e0mXMGop0DR_2zkWEUNmw/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div>
