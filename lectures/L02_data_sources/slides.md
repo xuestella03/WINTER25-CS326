@@ -38,7 +38,7 @@ L.02-Q.01
 
 ## Data Sources
 
-Data is at the heart of all data science. It's the raw material that we use to build models, make predictions, and draw conclusions. Data can be gathered from a variety of sources, and it comes in many different forms. 
+Data is at the heart of all data science! It's the raw material that we use to build models, make predictions, and draw conclusions. Data can be gathered from a variety of sources, and it comes in many different forms. 
 
 <div class = "col-wrapper">
 <div class = "c1" style = "width: 50%;">
