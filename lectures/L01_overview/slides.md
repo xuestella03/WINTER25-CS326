@@ -157,6 +157,20 @@ We are here to help you! Please try contacting us through office hours or the de
 
 <!--s-->
 
+## L.01 | Q.01
+
+What are you most looking forward to learning in CS 326?
+
+</div>
+
+<div class="c2 col-centered" style = "width: 40%; padding-bottom: 20%">
+<img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="100%">
+<a>poll.ev.com/nucs</a>
+</div>
+</div>
+
+<!--s-->
+
 <div class="header-slide">
 
 # Homework Assignment
