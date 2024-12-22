@@ -157,16 +157,23 @@ We are here to help you! Please try contacting us through office hours or the de
 
 <!--s-->
 
-## L.01 | Q.01
+<div class = "col-wrapper">
+  <div class="c1 col-centered">
+  <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
+    
+  ## L.01 | Q.01
 
-What are you most looking forward to learning in CS 326?
+  What are you most looking forward to learning in CS 326?
 
+  Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
+
+  </div>
+  </div>
+  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%; padding-bottom: 0%;">
+  <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
+  </div>
 </div>
 
-<div class="c2 col-centered" style = "width: 40%; padding-bottom: 20%">
-<img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="100%">
-<a>poll.ev.com/nucs</a>
-</div>
 </div>
 
 <!--s-->
