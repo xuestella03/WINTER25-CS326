@@ -1,9 +1,4 @@
 on:
-  workflow_run:
-    workflows:
-      - "Process Markdown with Questions"
-    types:
-      - completed
 
   push:
     branches:

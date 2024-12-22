@@ -25,8 +25,22 @@ revealOptions:
 
 <!--s-->
 
-L.01-Q.01
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTXENS5HWHDS0-4aZKGYmWlnLVMT1l6oFRf7OWEp6qR5vOtw/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
+<div class = "col-wrapper">
+  <div class="c1 col-centered">
+  <div style="font-size: 0.8em; left: 0; width: 70%; position: absolute;">
+
+  # Welcome to CS 326.
+  ## Please check in using PollEverywhere.
+  Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
+
+  </div>
+  </div>
+  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%">
+  <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
+  </div>
+</div>
+
+<!--s-->
 
 ## Attendance
 

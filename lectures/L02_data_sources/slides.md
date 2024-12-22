@@ -24,6 +24,23 @@ revealOptions:
 
 <!--s-->
 
+<div class = "col-wrapper">
+  <div class="c1 col-centered">
+  <div style="font-size: 0.8em; left: 0; width: 70%; position: absolute;">
+
+  # Welcome to CS 326.
+  ## Please check in using PollEverywhere.
+  Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
+
+  </div>
+  </div>
+  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%">
+  <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
+  </div>
+</div>
+
+<!--s-->
+
 <div class = "header-slide">
 
 # L.02 Data Sources
@@ -31,9 +48,6 @@ revealOptions:
 </div>
 
 <!--s-->
-
-L.02-Q.01
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdzqNfeJ2lnYgs6rvYziy_VRiQQTvt54ktjf_7_eLBSwf11Lw/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 ## Data Sources
 
@@ -172,17 +186,60 @@ Don't collect data that you don't need. Definitely don't collect data that you d
 
 <!--s-->
 
-L.02-Q.02
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpU_zAiiYBDpEEq7gpzLHuxyRryyUjKvwhTTE-kG2YrYf07w/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
+## Data Sources | Q.01
 
-L.02-Q.03
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdBmCohjRve3qh4BWwixBUAQV3Eu8xRi30gYN0-3ME7wv1qsg/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
+You're building a model to predict the price of a house based on its location, size, and number of bedrooms. Which of the following data sources would be a great first place to look?
+
+<div class="col-wrapper">
+<div class="c1" style = "width: 60%;">
+
+<div style = "line-height: 2em;">
+&emsp;&emsp;A. Bulk Downloads <br>
+&emsp;&emsp;B. APIs <br>
+&emsp;&emsp;C. Scraping, web crawling <br>
+&emsp;&emsp;D. BYOD (Bring Your Own Data) <br>
+</div>
+
+</div>
+
+<div class="c2 col-centered" style = "width: 40%;">
+<img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="100%">
+<a>poll.ev.com/nucs</a>
+</div>
+</div>
+
+<!--s-->
+
+## Data Sources | Q.02
+
+You just built an amazing stock market forecasting model. Congrats! Now, you want to test it on real-time data. Which of the following data sources would be a great first place to look?
+
+<div class="col-wrapper">
+<div class="c1" style = "width: 60%;">
+
+<div style = "line-height: 2em;">
+&emsp;&emsp;A. Bulk Downloads <br>
+&emsp;&emsp;B. APIs <br>
+&emsp;&emsp;C. Scraping, web crawling <br>
+&emsp;&emsp;D. BYOD (Bring Your Own Data) <br>
+</div>
+
+</div>
+
+<div class="c2 col-centered" style = "width: 40%;">
+<img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="100%">
+<a>poll.ev.com/nucs</a>
+</div>
+</div>
+
+<!--s-->
 
 <div class = "header-slide">
 
 # Data Structures
 
 </div>
+
 <!--s-->
 
 
@@ -368,8 +425,31 @@ df_interpolate = df.interpolate()
 
 <!--s-->
 
-L.02-Q.04
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfZsYR39A9u0YLKv2WJTOaXFEseBg_b-UrpgLIC6TMaHGOmuQ/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
+## Data Cleaning | Q.03
+
+You have streaming data that is occasionally dropping values. Which of the following methods would be appropriate to fill missing values when signal fails to update? 
+
+*Please note, in this scenario, you can't use the future to predict the past.*
+
+<div class="col-wrapper">
+<div class="c1 col-centered" style = "width: 60%; padding-bottom: 20%;">
+
+<div style = "line-height: 2em;">
+&emsp;A. Forward fill <br>
+&emsp;B. Imputation by interpolation <br>
+&emsp;C. Mean value imputation <br>
+&emsp;D. Backward fill <br>
+</div>
+
+</div>
+
+<div class="c2 col-centered" style = "width: 40%; padding-bottom: 20%">
+<img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="100%">
+<a>poll.ev.com/nucs</a>
+</div>
+</div>
+
+<!--s-->
 
 ## Data Cleaning | Handling Outliers
 
@@ -397,9 +477,6 @@ Handling outliers should be done on a case-by-case basis. Don't throw away data 
 - Data cleaning is not a one-size-fits-all process, and often requires domain expertise.
 
 <!--s-->
-
-L.02-Q.05
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdS_BzH7-HBHWwEeCIV2e3rydlqY6bfjtFRu4wVmNliBuxckQ/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
 
 <div class="header-slide">
 

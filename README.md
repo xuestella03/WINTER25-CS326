@@ -14,7 +14,7 @@ This schedule is tentative and may change as the course progresses.
 | --- | --- | --- | --- |
 | 1 | 01.07.2025 | [Course Overview](https://drc-cs.github.io/WINTER25-CS326/lectures/L01_overview/#/) | |
 | 2 | 01.09.2025 | [Data Collection and Structure](https://drc-cs.github.io/WINTER25-CS326/lectures/L02_data_sources/#/) | |
-| 3 | 01.14.2025 | Exploratory Data Analysis | H.01 |
+| 3 | 01.14.2025 | Exploratory Data Analysis | [H.01](https://canvas.northwestern.edu/courses/226962/assignments/1508084) |
 | 4 | 01.16.2025 | Correlation, Association, and Simpson's Paradox | |
 | 5 | 01.21.2025 | Hypothesis Testing | |
 | 6 | 01.23.2025 | Data Preprocessing | |
