@@ -46,7 +46,7 @@ revealOptions:
 
 Attendance at lectures is **mandatory** and in your best interest!
 
-You may miss up two lectures without penalty. After that, you will lose 1% of your final grade for each additional missed lecture without a valid excuse.
+Attendance is worth 10% of your final grade. Most lectures will have interactive quizzes throughout the lecture that will be graded for completion. The top 16 quiz scores will be used to calculate your attendance grade, leaving you with 4 freebies throughout the quarter.
 
 <!--s-->
 
@@ -79,6 +79,7 @@ There is a high emphasis on the practical application of the concepts covered in
 
 </div>
 </div>
+
 <!--s-->
 
 ## Homework 
@@ -140,8 +141,8 @@ If you are feeling distressed or overwhelmed, please reach out for help. Student
 
 ### **Office Hours**
 
-- Time: 12:30-1:30PM on Tuesdays (after lecture)
-- Location: Mudd 3510
+- Time: TBA
+- Location: TBA
 
 ### **Canvas Discussion**
 
@@ -156,8 +157,64 @@ We are here to help you! Please try contacting us through office hours or the de
 
 <!--s-->
 
-L.01-Q.02
-<div style="height: 100%; width: 100%;"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCoWO-4bRI3nF7fzYZHFSHKXFjnbgeZBfkNFlWCj9Q-zSEhQ/viewform?embedded=true" width="80%" height="100%" frameborder="0" marginheight="0" marginwidth="0" style="margin-left: 10%; margin-right: 10%;">Loading…</iframe></div><!--s-->
+<div class="header-slide">
+
+# Homework Assignment
+## H.01 "Hello World!"
+
+Due: 01.14.2025
+
+</div>
+
+<!--s-->
+
+## H.01 | Installing Conda
+
+We will be using Python for this course. Conda is a package manager that will help us install Python and other packages. 
+
+Don't have <span class="code-span">conda</span> installed? [[click-here]](https://docs.conda.io/en/latest/miniconda.html)
+
+<!--s-->
+
+## H.01 | Cloning Repo & Installing Environment
+
+We will be using a public GitHub repository for this course. Enter the following commands in your terminal to clone the repository and install the class environment.
+
+
+```bash
+git clone https://github.com/drc-cs/FALL24-CS326.git
+cd FALL24-CS326
+```
+
+We will be using a conda environment (cs326) for this course. 
+
+```bash
+conda env create -f environment.yml
+conda activate cs326
+```
+
+Don't have <span class="code-span">git</span> installed? [[click-here]](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+<!--s-->
+
+## H.01 | VSCode
+
+All demonstrations will be in VSCode, which is a popular IDE. You're welcome to use any IDE you want, but we will be best equipped to help you if you use VSCode.
+
+Don't have <span class="code-span">visual studio code</span> installed? [[click-here]](https://code.visualstudio.com/)
+
+After installing VSCode, you will need to install the Python extension: 
+
+1. Open VSCode
+2. Click on the "Extensions" icon in the "Activity Bar" on the side of the window
+3. Search for "Python" and click "Install"
+
+Add the <span class="code-span">code</span> command to your PATH so you can open VSCode from the terminal.
+
+1. Open the "Command Palette" (Ctrl+Shift+P on PC or Cmd+Shift+P on Mac)
+2. Search for "Shell Command: Install 'code' command in PATH" and click it
+
+<!--s-->
 
 ## H.01 | Opening Repo in VSCode
 
