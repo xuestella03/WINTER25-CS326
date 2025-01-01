@@ -134,7 +134,15 @@ If you are feeling distressed or overwhelmed, please reach out for help. Student
 
 ## Contact Information
 
-**Joshua D'Arcy (Instructor)**: joshua.darcy@northwestern.edu <br>
+**Peer Mentors**:
+- Sai Chakradhar Induvasi: wvg6368@ads.northwestern.edu
+- Shreya Singh: wku8357@ads.northwestern.edu
+- Nathan Mo: nmf0887@ads.northwestern.edu
+- Ishan Mukherjee: ishanmukherjee2027@u.northwestern.edu
+- Shubhi Gupta: ShubhiGupta2025@u.northwestern.edu
+
+**Intructor**:
+- Joshua D'Arcy: joshua.darcy@northwestern.edu
 
 -----
 
