@@ -149,9 +149,16 @@ If you are feeling distressed or overwhelmed, please reach out for help. Student
 - Every homework & project will have a discussion thread on Canvas.
 - Please post your questions there so that everyone can benefit from the answers!
 
+<!--s-->
+
+## Stuck on Something?
+
 ### **Email**
 
 We are here to help you! Please try contacting us through office hours or the dedicated Canvas discussion threads.
+
+<div class = "col-wrapper" style="font-size: 0.8em;">
+<div class="c1" style = "width: 50%">
 
 **Peer Mentors**:
 - Sai Chakradhar Induvasi: wvg6368@ads.northwestern.edu
@@ -160,11 +167,16 @@ We are here to help you! Please try contacting us through office hours or the de
 - Ishan Mukherjee: ishanmukherjee2027@u.northwestern.edu
 - Shubhi Gupta: ShubhiGupta2025@u.northwestern.edu
 
+</div>
+<div class="c2" style = "width: 50%">
+
 **TA**:
 - Sayak Chakrabarty: sayakchakrabarty2025@u.northwestern.edu
 
 **Intructor**:
 - Joshua D'Arcy: joshua.darcy@northwestern.edu
+
+</div>
 
 <!--s-->
 
