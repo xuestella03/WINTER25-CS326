@@ -141,6 +141,9 @@ If you are feeling distressed or overwhelmed, please reach out for help. Student
 - Ishan Mukherjee: ishanmukherjee2027@u.northwestern.edu
 - Shubhi Gupta: ShubhiGupta2025@u.northwestern.edu
 
+**TA**:
+- Sayak Chakrabarty: sayakchakrabarty2025@u.northwestern.edu
+
 **Intructor**:
 - Joshua D'Arcy: joshua.darcy@northwestern.edu
 
