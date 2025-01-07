@@ -116,11 +116,6 @@ There are two exams in this class. They will cover the theoretical and practical
 - Do not copy solutions from any source, including the web or previous CS 326 students.
 - You cannot upload / sell your assignments to code sharing websites.
 
-### Group project
-
-- Do not use code/analysis from public website.
-- Do not use code/analysis from a prior class.
-
 <!--s-->
 
 ## Accommodations
