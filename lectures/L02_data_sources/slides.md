@@ -309,7 +309,7 @@ Jeff Fox
 
 <div class = "header-slide">
 
-# SQL Overview
+# Relational Databases
 
 </div>
 
