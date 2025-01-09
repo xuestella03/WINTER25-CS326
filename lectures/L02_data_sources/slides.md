@@ -197,7 +197,8 @@ You're building a model to predict the price of a house based on its location, s
 
 <div class="c2 col-centered" style = "width: 40%;">
 <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="100%">
-<a>poll.ev.com/nucs</a>
+
+[pollev.com/nucs](https://pollev.com/nucs)
 </div>
 </div>
 
@@ -221,7 +222,8 @@ You just built an amazing stock market forecasting model. Congrats! Now, you wan
 
 <div class="c2 col-centered" style = "width: 40%;">
 <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="100%">
-<a>poll.ev.com/nucs</a>
+
+[pollev.com/nucs](https://pollev.com/nucs)
 </div>
 </div>
 
@@ -485,7 +487,8 @@ df = pd.read_sql(query, conn)
   </div>
   <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%">
   <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
-  <a>poll.ev.com/nucs</a>
+  
+  [pollev.com/nucs](https://pollev.com/nucs)
   </div>
 </div>
 
@@ -641,7 +644,8 @@ You have streaming data that is occasionally dropping values. Which of the follo
 
 <div class="c2 col-centered" style = "width: 40%; padding-bottom: 20%">
 <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="100%">
-<a>poll.ev.com/nucs</a>
+
+[pollev.com/nucs](https://pollev.com/nucs)
 </div>
 </div>
 
