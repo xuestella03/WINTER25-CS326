@@ -27,7 +27,18 @@ revealOptions:
 ## Announcements
 
 - **H.01** is due on **January 14 @ 11:59PM**.
+  - ~ 90% of you have already submitted. 🔥
+
 - Office hours are set for 12:30-2P on Tuesdays in Mudd 3532.
+  - Starting next week, January 14.
+
+- Attendance with PollEV
+  - Attendance grades have been entered for L.01.
+  - *Troubleshooting*: Generally, the Canvas link will work best.
+  - *Troubleshooting*: If you're having issues checking in on mobile, use the web link provided.
+  - *Troubleshooting*: If you have location permission issues, check your browser location settings.
+
+
 
 <!--s-->
 
