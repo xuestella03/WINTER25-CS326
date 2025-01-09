@@ -150,3 +150,6 @@ If you are feeling distressed or overwhelmed, please reach out for help. Student
 -----
 
 ## Office Hours
+
+**Structured Office Hours**: 12:30-2P on Tuesdays in Mudd 3532
+**Unstructured Office Hours**: By Appt. 

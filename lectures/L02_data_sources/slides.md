@@ -24,6 +24,13 @@ revealOptions:
 
 <!--s-->
 
+## Announcements
+
+- **H.01** is due on **January 14 @ 11:59PM**.
+- Office hours are set for 12:30-2P on Tuesdays in Mudd 3532.
+
+<!--s-->
+
 <div class = "col-wrapper">
   <div class="c1 col-centered">
   <div style="font-size: 0.8em; left: 0; width: 70%; position: absolute;">
@@ -342,8 +349,9 @@ Relational databases are a type of database management system (DBMS) that store 
 
 <!--s-->
 
+<div style="font-size: 0.8em;">
 
-### SQL Query Cheat Sheet (Part 1)
+## SQL Query Cheat Sheet (Part 1)
 
 ### `CREATE TABLE`
 
@@ -377,9 +385,13 @@ Relational databases are a type of database management system (DBMS) that store 
   DELETE FROM table_name WHERE column1 = 'value';
   ```
 
+</div>
+
 <!--s-->
 
-### SQL Query Cheat Sheet (Part 2)
+<div style="font-size: 0.8em;">
+
+## SQL Query Cheat Sheet (Part 2)
 
 ### `SELECT`
   
@@ -408,9 +420,13 @@ Relational databases are a type of database management system (DBMS) that store 
   /* Select column1 and column2 from table_name and limit the results to 10. */
   SELECT column1, column2 FROM table_name LIMIT 10;
   ```
+
+</div>
 <!--s-->
 
-### SQL Query Cheat Sheet (Part 3)
+<div style="font-size: 0.8em;">
+
+## SQL Query Cheat Sheet (Part 3)
 
 ### `JOIN`
 
@@ -446,6 +462,8 @@ Relational databases are a type of database management system (DBMS) that store 
   SELECT column2, SUM(column1) FROM table_name GROUP BY column2;
   ```
 
+</div>
+
 <!--s-->
 
 ### SQL and Pandas (🔥)
@@ -472,7 +490,7 @@ df = pd.read_sql(query, conn)
   <div class="c1 col-centered">
   <div style="font-size: 0.8em; left: 0; width: 50%; position: absolute;">
 
-  ## SQL Challenge | Q.01
+  ## SQL Challenge | Q.03
 
   
   Write a SQL query that selects the <span class = "code-span">name</span> and <span class = "code-span">year</span> columns from a <span class = "code-span">movies</span> table where the <span class = "code-span">year</span> is greater than 2000.
@@ -481,23 +499,7 @@ df = pd.read_sql(query, conn)
   </div>
   <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%">
   <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
-  </div>
-</div>
-
-<!--s-->
-
-<div class = "col-wrapper">
-  <div class="c1 col-centered">
-  <div style="font-size: 0.8em; left: 0; width: 50%; position: absolute;">
-
-  ## SQL Challenge | Q.02
-
-  Write a SQL query that selects the <span class = "code-span">name</span> and <span class = "code-span">year</span> columns from a <span class = "code-span">movies</span> table where the <span class = "code-span">year</span> is greater than 2000 and the <span class = "code-span">genre</span> is equal to <span class = "code-span">comedy</span>.
-
-  </div>
-  </div>
-  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%">
-  <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
+  <a>poll.ev.com/nucs</a>
   </div>
 </div>
 
@@ -633,7 +635,7 @@ df_interpolate = df.interpolate()
 
 <!--s-->
 
-## Data Cleaning | Q.03
+## Data Cleaning | Q.05
 
 You have streaming data that is occasionally dropping values. Which of the following methods would be appropriate to fill missing values when signal fails to update? 
 
