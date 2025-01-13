@@ -24,6 +24,15 @@ revealOptions:
 
 <!--s-->
 
+## Announcements
+
+- H.01 is due tonight @ 11:59 PM.
+- By popular demand, we are adding another office hour.
+    - 1-2P on Tuesdays in Mudd 3532
+    - 2-3P on Thursdays in Mudd 3532
+
+<!--s-->
+
 <div class = "col-wrapper">
   <div class="c1 col-centered">
   <div style="font-size: 0.8em; left: 0; width: 70%; position: absolute;">
@@ -38,19 +47,6 @@ revealOptions:
   <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
   </div>
 </div>
-
-<!--s-->
-
-
-## Announcements
-
-- **H.01** is due 10.01.2024 at 11:59 PM.
-    - Several of you have not submitted H.01 yet.
-
-- **P.01** is due 10.08.2024 at 11:59 PM.
-
-- **Office Hours**<br>
-    - Nathan and I will be there today @ Mudd 3510 from 2:30P - 3:20P
 
 <!--s-->
 
@@ -598,10 +594,53 @@ fig.show()
 
 <!--s-->
 
-<div class = "header-slide">
+<div class = "col-wrapper">
+  <div class="c1 col-centered">
+  <div style="font-size: 1em; left: 0; width: 50%; position: absolute;">
 
-# H.01 | hello_world.py
-Due: 10.01.2024 <br>
+  # H.02 | basic_statistics.py
+  ## Code & Free Response
+  ### Due: 10.15.2024 @ 11:59 PM
+
+```bash
+cd <class directory>
+git pull
+```
+
+</div>
+</div>
+<div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 0%">
+<iframe src="https://lottie.host/embed/6c677caa-d54a-411c-b0c0-6f186378d571/UKVVhf0EJN.json" height = "100%" width = "100%"></iframe>
+
+</div>
+</div>
+
+<!--s-->
+
+## Additional Slides
+
+<!--s-->
+
+## Question: Why is Kurtosis = 3 in a Normal Distribution?
+
+In probability, the **moments** of a distribution are a set of quantities that describe its shape. A moment is a specific quantitative measure of the shape of a set of points.
+
+<img src = "https://storage.googleapis.com/cs326-bucket/moments.png" style = "width: 100%">
+<p style="text-align: center; font-size: 0.6em; color: grey;"> Source: https://en.wikipedia.org/wiki/Standardized_moment</p>
+
+<!--s-->
+
+## Question: Why is Kurtosis = 3 in a Normal Distribution?
+
+In probability, the **moments** of a distribution are a set of quantities that describe its shape. A moment is a specific quantitative measure of the shape of a set of points.
+
+You will often see kurtosis notated as the fourth moment about the mean, divided by the standard deviation to the fourth power:
+
+$$ \frac{\mu_4}{\sigma^4} $$
+
+A property of normal distributions is that the $ \mu_4 $ is equal to $3 \sigma^4$, so:
+
+$$ \frac{3 \sigma^4}{\sigma^4} = 3 $$
 
 </div>
 
