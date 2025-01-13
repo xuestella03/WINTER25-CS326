@@ -307,7 +307,7 @@ Whatever type of plot you choose, make sure your visualization is information de
 
 <!--s-->
 
-## Graphical EDA | Common Visualization Types
+## Graphical EDA | Basic Visualization Types
 
 <div class = "col-wrapper">
 <div class="c1" style = "width: 50%">
@@ -586,6 +586,57 @@ fig.show()
 </div>
 
 <!--s-->
+
+## Graphical EDA | Advanced Visualization Types
+
+- ML Results
+    - Residual Plots
+    - Regression in 3D
+    - Decision Boundary
+- Parallel Coordinates
+- Maps / Chloropleth
+
+<!--s-->
+
+### Residual Plots
+
+Residual plots are a great way to visualize the residuals of a model. They can help you identify patterns in the residuals, which can help you identify issues with your model.
+
+<iframe width = "100%" height = "100%" src="https://storage.googleapis.com/slide_assets/residual.html" title="scatter_plot" padding=2em;></iframe>
+
+<!--s-->
+
+### Regression in 3D
+
+Regression in 3D is a great way to visualize the relationship between three numerical variables.
+
+<iframe width = "100%" height = "100%" src="https://storage.googleapis.com/slide_assets/svr.html" title="scatter_plot" padding=2em;></iframe>
+<!--s-->
+
+### Decision Boundary
+
+Decision boundaries are a great way to visualize the decision-making process of a classification model.
+
+<iframe width = "100%" height = "100%" src="https://storage.googleapis.com/slide_assets/contour.html" title="scatter_plot" padding=2em;></iframe>
+
+<!--s-->
+
+### Parallel Coordinates
+
+Parallel coordinates are a great way to visualize the relationship between multiple numerical variables, often used to represent hyperparameter tuning results.
+
+<iframe width = "100%" height = "100%" src="https://storage.googleapis.com/slide_assets/parcoords.html" title="scatter_plot" padding=2em;></iframe>
+
+<!--s-->
+
+### Maps / Chloropleth
+
+Chloropleths are a great way to visualize data that is geographically distributed. They can help you understand the spatial distribution of the data, and can help you identify patterns in the data.
+
+<iframe width = "100%" height = "100%" src="https://storage.googleapis.com/slide_assets/choropleth.html" title="scatter_plot" padding=2em;></iframe>
+
+<!--s-->
+
 
 ## TLDR;
 
