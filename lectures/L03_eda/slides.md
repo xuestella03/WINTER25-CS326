@@ -39,12 +39,15 @@ revealOptions:
 
   # Welcome to CS 326.
   ## Please check in using PollEverywhere.
-  Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
 
   </div>
   </div>
-  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%">
-  <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
+  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%; font-size: 1.5em;">
+
+  <a href="https://canvas.northwestern.edu/courses/226962/external_tools/50852" target="_blank">[Canvas PollEV Link]</a>
+
+  </div>
+
   </div>
 </div>
 
@@ -92,6 +95,18 @@ We can break down EDA into two main topics:
 
 <!--s-->
 
+## Descriptive EDA | Describe $x$
+
+<iframe width = "100%" height = "100%" src="https://storage.googleapis.com/cs326-bucket/lecture_3_plots/boxplot.html" title="scatter_plot" padding=2em;></iframe>
+
+<!--s-->
+
+## Descriptive EDA | Describe $x$
+
+<iframe width = "100%" height = "100%" src="https://storage.googleapis.com/cs326-bucket/lecture_3_plots/violin.html" title="scatter_plot" padding=2em;></iframe>
+
+<!--s-->
+
 ## Central Tendency
 
 - **Mean**: The average of the data. 
@@ -113,6 +128,47 @@ We can break down EDA into two main topics:
     data = np.random.normal(0, 1, 1000)
     mode(data)
     ```
+
+<!--s-->
+
+## EDA | Q.01
+
+Which of the following would correctly calculate the median of the following list?
+
+```python
+data = [1, 2, 4, 3, 5]
+
+```
+
+<div class="col-wrapper">
+<div class="c1" style = "width: 60%;">
+
+<div style = "line-height: 2em;">
+
+A. 
+```
+median = sorted(data)[len(data) // 2]
+```
+
+B. 
+
+```
+median = sorted(data)[len(data) // 2 - 1]
+```
+
+C.
+```
+median = sorted(data)[len(data) // 2 + 1]
+```
+
+</div>
+
+</div>
+
+<div class="c2 col-centered" style = "width: 40%;">
+<a href="https://canvas.northwestern.edu/courses/226962/external_tools/50852" target="_blank">[Canvas PollEV Link]</a>
+</div>
+</div>
 
 <!--s-->
 
@@ -161,6 +217,28 @@ print(skew(data))
 <iframe width = "80%" height = "80%" src="https://storage.googleapis.com/cs326-bucket/lecture_3_plots/skewness.html" title="scatter_plot"></iframe>
 
 <!--s-->
+
+## EDA | Q.02
+
+Is this distribution positively or negatively skewed?
+
+<div class="col-wrapper">
+<div class="c1" style = "width: 60%;">
+
+&emsp;A. Positively skewed<br>
+&emsp;B. Negatively skewed<br>
+&emsp;C. No skew<br>
+</div>
+
+<div class="c2 col-centered" style = "width: 40%;">
+<img src="https://storage.googleapis.com/slide_assets/positive_skew.png" width="100%">
+<a href="https://canvas.northwestern.edu/courses/226962/external_tools/50852" target="_blank">[Canvas PollEV Link]</a>
+</div>
+
+</div>
+
+<!--s-->
+
 
 ## Kurtosis
 
@@ -637,6 +715,27 @@ Chloropleths are a great way to visualize data that is geographically distribute
 
 <!--s-->
 
+## EDA | Q.03
+
+We have some extra space in the schedule. My goal with CS 326 is to teach you data science fundamentals, and along the way get you a few extra-useful tools that you can take with you. With that in mind, please select the topic you would most like to see covered before the midterm.
+
+<div class="col-wrapper">
+<div class="c1" style = "width: 60%;">
+
+&emsp;A. Introduction to Snowflake <br>
+&emsp;B. Advanced GitHub <br>
+&emsp;C. Docker & Scalable Infrastructure <br>
+</div>
+
+<div class="c2" style = "width: 40%;">
+
+[[Canvas PollEV Link](https://canvas.northwestern.edu/courses/226962/external_tools/50852)]
+
+</div>
+</div>
+
+
+<!--s-->
 
 ## TLDR;
 
