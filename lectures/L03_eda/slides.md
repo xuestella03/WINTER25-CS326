@@ -30,6 +30,7 @@ revealOptions:
 - By popular demand, we are adding another office hour.
     - 1-2P on Tuesdays in Mudd 3532
     - 2-3P on Thursdays in Mudd 3532
+- **ALL** PollEV interactions must be done through Canvas. Links will be provided on the slides [[PEV🔗](https://canvas.northwestern.edu/courses/226962/external_tools/50852)]. Do **not** use the pollev/nucs link or the QR code going forward.
 
 <!--s-->
 
@@ -44,7 +45,7 @@ revealOptions:
   </div>
   <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%; font-size: 1.5em;">
 
-  <a href="https://canvas.northwestern.edu/courses/226962/external_tools/50852" target="_blank">[Canvas PollEV Link]</a>
+  <a href="https://canvas.northwestern.edu/courses/226962/external_tools/50852" target="_blank">[PEV🔗]</a>
 
   </div>
 
@@ -80,6 +81,18 @@ We can break down EDA into two main topics:
 
 <!--s-->
 
+## Descriptive EDA | Describe $x$
+
+<iframe width = "100%" height = "100%" src="https://storage.googleapis.com/cs326-bucket/lecture_3_plots/boxplot.html" title="scatter_plot" padding=2em;></iframe>
+
+<!--s-->
+
+## Descriptive EDA | Describe $x$
+
+<iframe width = "100%" height = "100%" src="https://storage.googleapis.com/cs326-bucket/lecture_3_plots/violin.html" title="scatter_plot" padding=2em;></iframe>
+
+<!--s-->
+
 ## Descriptive EDA | Examples
 
 - **Central tendency**
@@ -92,18 +105,6 @@ We can break down EDA into two main topics:
     - A measure of the "tailedness" of the distribution. Typically close to 3 for a normal distribution.
 - **Modality**
     - The number of peaks in the distribution.
-
-<!--s-->
-
-## Descriptive EDA | Describe $x$
-
-<iframe width = "100%" height = "100%" src="https://storage.googleapis.com/cs326-bucket/lecture_3_plots/boxplot.html" title="scatter_plot" padding=2em;></iframe>
-
-<!--s-->
-
-## Descriptive EDA | Describe $x$
-
-<iframe width = "100%" height = "100%" src="https://storage.googleapis.com/cs326-bucket/lecture_3_plots/violin.html" title="scatter_plot" padding=2em;></iframe>
 
 <!--s-->
 
@@ -128,47 +129,6 @@ We can break down EDA into two main topics:
     data = np.random.normal(0, 1, 1000)
     mode(data)
     ```
-
-<!--s-->
-
-## EDA | Q.01
-
-Which of the following would correctly calculate the median of the following list?
-
-```python
-data = [1, 2, 4, 3, 5]
-
-```
-
-<div class="col-wrapper">
-<div class="c1" style = "width: 60%;">
-
-<div style = "line-height: 2em;">
-
-A. 
-```
-median = sorted(data)[len(data) // 2]
-```
-
-B. 
-
-```
-median = sorted(data)[len(data) // 2 - 1]
-```
-
-C.
-```
-median = sorted(data)[len(data) // 2 + 1]
-```
-
-</div>
-
-</div>
-
-<div class="c2 col-centered" style = "width: 40%;">
-<a href="https://canvas.northwestern.edu/courses/226962/external_tools/50852" target="_blank">[Canvas PollEV Link]</a>
-</div>
-</div>
 
 <!--s-->
 
@@ -218,6 +178,47 @@ print(skew(data))
 
 <!--s-->
 
+## EDA | Q.01
+
+Which of the following would correctly calculate the median of the following list?
+
+```python
+data = [1, 2, 4, 3, 5]
+
+```
+
+<div class="col-wrapper">
+<div class="c1" style = "width: 60%;">
+
+<div style = "line-height: 2em;">
+
+A. 
+```python
+median = sorted(data)[len(data) // 2]
+```
+
+B. 
+
+```python
+median = sorted(data)[len(data) // 2 - 1]
+```
+
+C.
+```python
+median = sorted(data)[len(data) // 2 + 1]
+```
+
+</div>
+
+</div>
+
+<div class="c2 col-centered" style = "width: 40%;">
+<a href="https://canvas.northwestern.edu/courses/226962/external_tools/50852" target="_blank">[PEV🔗]</a>
+</div>
+</div>
+
+<!--s-->
+
 ## EDA | Q.02
 
 Is this distribution positively or negatively skewed?
@@ -232,7 +233,7 @@ Is this distribution positively or negatively skewed?
 
 <div class="c2 col-centered" style = "width: 40%;">
 <img src="https://storage.googleapis.com/slide_assets/positive_skew.png" width="100%">
-<a href="https://canvas.northwestern.edu/courses/226962/external_tools/50852" target="_blank">[Canvas PollEV Link]</a>
+<a href="https://canvas.northwestern.edu/courses/226962/external_tools/50852" target="_blank">[PEV🔗]</a>
 </div>
 
 </div>
@@ -385,6 +386,17 @@ Whatever type of plot you choose, make sure your visualization is information de
 
 <!--s-->
 
+## Graphical EDA | A Note on Tools
+
+Matplotlib and Plotly are the most popular libraries for data visualization in Python.
+
+| Library | Pros | Cons |
+| --- | --- | --- |
+| Matplotlib | Excellent for static publication-quality plots, very fast render, old and well supported. | Steeper learning curve, many ways to do the same thing, no interactivity, OOTB color schemes. |
+| Plotly | Excellent for interactive plots, easy to use, easy tooling for animations, built-in support for dashboarding and publishing online. | Not as good for static plots, less fine-grained control, high density renders can be non-trivial. |
+
+<!--s-->
+
 ## Graphical EDA | Basic Visualization Types
 
 <div class = "col-wrapper">
@@ -418,17 +430,6 @@ Whatever type of plot you choose, make sure your visualization is information de
 
 </div>
 </div>
-
-<!--s-->
-
-## A Note on Tools
-
-Matplotlib and Plotly are the most popular libraries for data visualization in Python.
-
-| Library | Pros | Cons |
-| --- | --- | --- |
-| Matplotlib | Excellent for static publication-quality plots, very fast render, old and well supported. | Steeper learning curve, many ways to do the same thing, no interactivity, OOTB color schemes. |
-| Plotly | Excellent for interactive plots, easy to use, easy tooling for animations, built-in support for dashboarding and publishing online. | Not as good for static plots, less fine-grained control, high density renders can be non-trivial. |
 
 <!--s-->
 
@@ -511,7 +512,7 @@ fig.show()
 
 ## 1D Data | Bar Charts
 
-Bar charts are a great way to visualize the distribution of **categorical** data.
+Bar charts are a great way to visualize the distribution of categorical data.
 
 <div class = "col-wrapper">
 <div class="c1 col-centered" style = "width: 40%; padding: 0; margin: 0;">
@@ -729,7 +730,7 @@ We have some extra space in the schedule. My goal with CS 326 is to teach you da
 
 <div class="c2" style = "width: 40%;">
 
-[[Canvas PollEV Link](https://canvas.northwestern.edu/courses/226962/external_tools/50852)]
+[[PEV🔗](https://canvas.northwestern.edu/courses/226962/external_tools/50852)]
 
 </div>
 </div>
@@ -750,7 +751,7 @@ We have some extra space in the schedule. My goal with CS 326 is to teach you da
 
   # H.02 | basic_statistics.py
   ## Code & Free Response
-  ### Due: 10.15.2024 @ 11:59 PM
+  ### Due: 01.28.2025 @ 11:59 PM
 
 ```bash
 cd <class directory>
