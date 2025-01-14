@@ -24,6 +24,24 @@ revealOptions:
 
 <!--s-->
 
+## Announcements
+
+- **H.01** is due on **January 14 @ 11:59PM**.
+  - ~ 90% of you have already submitted. 🔥
+
+- Office hours are set for 12:30-2P on Tuesdays in Mudd 3532.
+  - Starting next week, January 14.
+
+- Attendance with PollEV
+  - Attendance grades have been entered for L.01.
+  - *Troubleshooting*: Generally, the Canvas link will work best.
+  - *Troubleshooting*: If you're having issues checking in on mobile, use the web link provided.
+  - *Troubleshooting*: If you have location permission issues, check your browser location settings.
+
+
+
+<!--s-->
+
 <div class = "col-wrapper">
   <div class="c1 col-centered">
   <div style="font-size: 0.8em; left: 0; width: 70%; position: absolute;">
@@ -118,20 +136,6 @@ r = requests.get(url)
 data = r.json()
 ```
 
-```python
-from openai import OpenAI
-client = OpenAI()
-
-response = client.chat.completions.create(
-  model="gpt-3.5-turbo-0125",
-  response_format={ "type": "json_object" },
-  messages=[
-    {"role": "system", "content": "You are a helpful assistant designed to output JSON."},
-    {"role": "user", "content": "Who won the world series in 2020?"}
-  ]
-)
-```
-
 <!--s-->
 
 ## Data Sources | Scraping, Web Crawling
@@ -204,7 +208,8 @@ You're building a model to predict the price of a house based on its location, s
 
 <div class="c2 col-centered" style = "width: 40%;">
 <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="100%">
-<a>poll.ev.com/nucs</a>
+
+[pollev.com/nucs](https://pollev.com/nucs)
 </div>
 </div>
 
@@ -228,7 +233,8 @@ You just built an amazing stock market forecasting model. Congrats! Now, you wan
 
 <div class="c2 col-centered" style = "width: 40%;">
 <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="100%">
-<a>poll.ev.com/nucs</a>
+
+[pollev.com/nucs](https://pollev.com/nucs)
 </div>
 </div>
 
@@ -304,6 +310,210 @@ My name is Jeff Fox (employee id 1234567). I'm excited to start on 1/1/2013.
 Sincerely,
 Jeff Fox
 ```
+
+<!--s-->
+
+<div class = "header-slide">
+
+# Relational Databases
+
+</div>
+
+<!--s-->
+
+## Relational Databases
+
+<img src="https://planetscale.com/assets/blog/content/schema-design-101-relational-databases/a2906fd68b050d7f9e0714c7d566990efd645005-1953x1576.png" width="100%" style="border-radius: 10px;">
+<p style="text-align: center; font-size: 0.6em; color: grey;">Ramos 2022</p>
+
+<!--s-->
+
+## Relational Databases
+
+<img src="https://planetscale.com/assets/blog/content/schema-design-101-relational-databases/db72cc3ac506bec544588454972113c4dc3abe50-1953x1576.png" width="100%" style="border-radius: 10px;">
+<p style="text-align: center; font-size: 0.6em; color: grey;">Ramos 2022</p>
+
+<!--s-->
+
+
+## Relational Databases
+
+Relational databases are a type of database management system (DBMS) that store and manage data in a structured format using tables. Each table, or relation, consists of rows and columns, where rows represent individual records and columns represent the attributes of the data. Widely used systems include MySQL and PostgreSQL. 
+
+### Key Vocabulary:
+
+- **Tables:** Organized into rows and columns, with each row being a unique data entry and each column representing a data attribute.
+- **Relationships:** Tables are connected through keys, with primary keys uniquely identifying each record and foreign keys linking related records across tables.
+- **SQL (Structured Query Language):** The standard language used to query and manipulate data within a relational database.
+
+<!--s-->
+
+<div style="font-size: 0.8em;">
+
+## SQL Query Cheat Sheet (Part 1)
+
+### `CREATE TABLE`
+
+  ```sql
+  /* Create a table called table_name with column1, column2, and column3. */
+  CREATE TABLE table_name (
+    column1 INT PRIMARY KEY, /* Primary key is a unique identifier for each row. */
+    column2 VARCHAR(100), /* VARCHAR is a variable-length string up to 100 characters. */
+    column3 DATE /* DATE is a date type. */
+  );
+  ```
+
+### `INSERT INTO`
+
+  ```sql
+  /* Insert values into column1, column2, and column3 in table_name. */
+  INSERT INTO table_name (column1, column2, column3) VALUES (value1, value2, value3);
+  ```
+
+### `UPDATE`
+
+  ```sql
+  /* Update column1 in table_name to 'value' where column2 is equal to 'value'. */
+  UPDATE table_name SET column1 = 'value' WHERE column2 = 'value';
+  ```
+
+### `DELETE`
+
+  ```sql
+  /* Delete from table_name where column1 is equal to 'value'. */
+  DELETE FROM table_name WHERE column1 = 'value';
+  ```
+
+</div>
+
+<!--s-->
+
+<div style="font-size: 0.8em;">
+
+## SQL Query Cheat Sheet (Part 2)
+
+### `SELECT`
+  
+  ```sql
+  /* Select column1 and column2 from table_name.*/
+  SELECT column1, column2 FROM table_name;
+  ```
+
+### `WHERE`
+
+  ```sql
+  /* Select column1 and column2 from table_name where column1 is equal to 'value' and column2 is equal to 'value'. */
+  SELECT column1, column2 FROM table_name WHERE column1 = 'value' AND column2 = 'value';
+  ```
+
+### `ORDER BY`
+
+  ```sql
+  /* Select column1 and column2 from table_name and order by column1 in descending order. */
+  SELECT column1, column2 FROM table_name ORDER BY column1 DESC;
+  ```
+
+### `LIMIT`
+
+  ```sql
+  /* Select column1 and column2 from table_name and limit the results to 10. */
+  SELECT column1, column2 FROM table_name LIMIT 10;
+  ```
+
+</div>
+<!--s-->
+
+<div style="font-size: 0.8em;">
+
+## SQL Query Cheat Sheet (Part 3)
+
+### `JOIN`
+
+  ```sql
+  /* Select column1 and column2 from table1 and table2 where column1 is equal to column2. */
+  SELECT column1, column2 FROM table1 JOIN table2 ON table1.column1 = table2.column2;
+  ```
+
+### `GROUP BY`
+
+  ```sql
+  /* Select column1 and column2 from table_name and group by column1. */
+  SELECT column1, column2 FROM table_name GROUP BY column1;
+  ```
+
+### `COUNT`
+
+  ```sql
+  /* Select the count of column1 from table_name. */
+  SELECT COUNT(column1) FROM table_name;
+
+  /* Group by column2 and select the count of column1 from table_name. */
+  SELECT column2, COUNT(column1) FROM table_name GROUP BY column2;
+  ```
+
+### `SUM`
+
+  ```sql
+  /* Select the sum of column1 from table_name. */
+  SELECT SUM(column1) FROM table_name;
+
+  /* Group by column2 and select the sum of column1 from table_name. */
+  SELECT column2, SUM(column1) FROM table_name GROUP BY column2;
+  ```
+
+</div>
+
+<!--s-->
+
+### SQL and Pandas (🔥)
+
+```python
+import pandas as pd
+import sqlite3
+
+# Create a connection to a SQLite database.
+conn = sqlite3.connect('example.db')
+
+# Load a DataFrame into the database.
+df = pd.DataFrame({'column1': [1, 2, 3], 'column2': ['a', 'b', 'c']})
+df.to_sql('table_name', conn, if_exists='replace')
+
+# Query the database.
+query = 'SELECT * FROM table_name'
+df = pd.read_sql(query, conn)
+```
+
+<!--s-->
+
+<div class = "col-wrapper">
+  <div class="c1 col-centered">
+  <div style="font-size: 0.8em; left: 0; width: 50%; position: absolute;">
+
+  ## SQL Challenge | Q.03
+
+  
+  Write a SQL query that selects the <span class = "code-span">name</span> and <span class = "code-span">year</span> columns from a <span class = "code-span">movies</span> table where the <span class = "code-span">year</span> is greater than 2000.
+
+  </div>
+  </div>
+  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%">
+  <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
+  
+  [pollev.com/nucs](https://pollev.com/nucs)
+  </div>
+</div>
+
+<!--s-->
+
+## Practice Your SQL!
+
+The majority of data science interviews will have a SQL component. It's a good idea to practice your SQL skills. Here are a few resources to get you started:
+
+- ### [SQLZoo](https://sqlzoo.net/)
+- ### [W3Schools](https://www.w3schools.com/sql/)
+- ### [LeetCode](https://leetcode.com/problemset/database/)
+- ### [HackerRank](https://www.hackerrank.com/domains/sql)
+- ### [SQL Practice](https://www.sql-practice.com/)
 
 <!--s-->
 
@@ -425,7 +635,7 @@ df_interpolate = df.interpolate()
 
 <!--s-->
 
-## Data Cleaning | Q.03
+## Data Cleaning | Q.05
 
 You have streaming data that is occasionally dropping values. Which of the following methods would be appropriate to fill missing values when signal fails to update? 
 
@@ -445,7 +655,8 @@ You have streaming data that is occasionally dropping values. Which of the follo
 
 <div class="c2 col-centered" style = "width: 40%; padding-bottom: 20%">
 <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="100%">
-<a>poll.ev.com/nucs</a>
+
+[pollev.com/nucs](https://pollev.com/nucs)
 </div>
 </div>
 

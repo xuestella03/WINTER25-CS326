@@ -24,33 +24,33 @@ revealOptions:
 
 <!--s-->
 
+## Announcements
+
+- H.01 is due tonight @ 11:59 PM.
+- By popular demand, we are adding another office hour.
+    - 1-2P on Tuesdays in Mudd 3532
+    - 2-3P on Thursdays in Mudd 3532
+- **ALL** PollEV interactions must be done through Canvas. Links will be provided on the slides [[PEV🔗](https://canvas.northwestern.edu/courses/226962/external_tools/50852)]. Do **not** use the pollev/nucs link or the QR code going forward.
+
+<!--s-->
+
 <div class = "col-wrapper">
   <div class="c1 col-centered">
   <div style="font-size: 0.8em; left: 0; width: 70%; position: absolute;">
 
   # Welcome to CS 326.
   ## Please check in using PollEverywhere.
-  Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
 
   </div>
   </div>
-  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%">
-  <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
+  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%; font-size: 1.5em;">
+
+  <a href="https://canvas.northwestern.edu/courses/226962/external_tools/50852" target="_blank">[PEV🔗]</a>
+
+  </div>
+
   </div>
 </div>
-
-<!--s-->
-
-
-## Announcements
-
-- **H.01** is due 10.01.2024 at 11:59 PM.
-    - Several of you have not submitted H.01 yet.
-
-- **P.01** is due 10.08.2024 at 11:59 PM.
-
-- **Office Hours**<br>
-    - Nathan and I will be there today @ Mudd 3510 from 2:30P - 3:20P
 
 <!--s-->
 
@@ -78,6 +78,18 @@ We can break down EDA into two main topics:
 # Descriptive EDA
 
 </div>
+
+<!--s-->
+
+## Descriptive EDA | Describe $x$
+
+<iframe width = "100%" height = "100%" src="https://storage.googleapis.com/cs326-bucket/lecture_3_plots/boxplot.html" title="scatter_plot" padding=2em;></iframe>
+
+<!--s-->
+
+## Descriptive EDA | Describe $x$
+
+<iframe width = "100%" height = "100%" src="https://storage.googleapis.com/cs326-bucket/lecture_3_plots/violin.html" title="scatter_plot" padding=2em;></iframe>
 
 <!--s-->
 
@@ -165,6 +177,69 @@ print(skew(data))
 <iframe width = "80%" height = "80%" src="https://storage.googleapis.com/cs326-bucket/lecture_3_plots/skewness.html" title="scatter_plot"></iframe>
 
 <!--s-->
+
+## EDA | Q.01
+
+Which of the following would correctly calculate the median of the following list?
+
+```python
+data = [1, 2, 4, 3, 5]
+
+```
+
+<div class="col-wrapper">
+<div class="c1" style = "width: 60%;">
+
+<div style = "line-height: 2em;">
+
+A. 
+```python
+median = sorted(data)[len(data) // 2]
+```
+
+B. 
+
+```python
+median = sorted(data)[len(data) // 2 - 1]
+```
+
+C.
+```python
+median = sorted(data)[len(data) // 2 + 1]
+```
+
+</div>
+
+</div>
+
+<div class="c2 col-centered" style = "width: 40%;">
+<a href="https://canvas.northwestern.edu/courses/226962/external_tools/50852" target="_blank">[PEV🔗]</a>
+</div>
+</div>
+
+<!--s-->
+
+## EDA | Q.02
+
+Is this distribution positively or negatively skewed?
+
+<div class="col-wrapper">
+<div class="c1" style = "width: 60%;">
+
+&emsp;A. Positively skewed<br>
+&emsp;B. Negatively skewed<br>
+&emsp;C. No skew<br>
+</div>
+
+<div class="c2 col-centered" style = "width: 40%;">
+<img src="https://storage.googleapis.com/slide_assets/positive_skew.png" width="100%">
+<a href="https://canvas.northwestern.edu/courses/226962/external_tools/50852" target="_blank">[PEV🔗]</a>
+</div>
+
+</div>
+
+<!--s-->
+
 
 ## Kurtosis
 
@@ -311,7 +386,18 @@ Whatever type of plot you choose, make sure your visualization is information de
 
 <!--s-->
 
-## Graphical EDA | Common Visualization Types
+## Graphical EDA | A Note on Tools
+
+Matplotlib and Plotly are the most popular libraries for data visualization in Python.
+
+| Library | Pros | Cons |
+| --- | --- | --- |
+| Matplotlib | Excellent for static publication-quality plots, very fast render, old and well supported. | Steeper learning curve, many ways to do the same thing, no interactivity, OOTB color schemes. |
+| Plotly | Excellent for interactive plots, easy to use, easy tooling for animations, built-in support for dashboarding and publishing online. | Not as good for static plots, less fine-grained control, high density renders can be non-trivial. |
+
+<!--s-->
+
+## Graphical EDA | Basic Visualization Types
 
 <div class = "col-wrapper">
 <div class="c1" style = "width: 50%">
@@ -344,17 +430,6 @@ Whatever type of plot you choose, make sure your visualization is information de
 
 </div>
 </div>
-
-<!--s-->
-
-## A Note on Tools
-
-Matplotlib and Plotly are the most popular libraries for data visualization in Python.
-
-| Library | Pros | Cons |
-| --- | --- | --- |
-| Matplotlib | Excellent for static publication-quality plots, very fast render, old and well supported. | Steeper learning curve, many ways to do the same thing, no interactivity, OOTB color schemes. |
-| Plotly | Excellent for interactive plots, easy to use, easy tooling for animations, built-in support for dashboarding and publishing online. | Not as good for static plots, less fine-grained control, high density renders can be non-trivial. |
 
 <!--s-->
 
@@ -437,7 +512,7 @@ fig.show()
 
 ## 1D Data | Bar Charts
 
-Bar charts are a great way to visualize the distribution of **categorical** data.
+Bar charts are a great way to visualize the distribution of categorical data.
 
 <div class = "col-wrapper">
 <div class="c1 col-centered" style = "width: 40%; padding: 0; margin: 0;">
@@ -591,6 +666,78 @@ fig.show()
 
 <!--s-->
 
+## Graphical EDA | Advanced Visualization Types
+
+- ML Results
+    - Residual Plots
+    - Regression in 3D
+    - Decision Boundary
+- Parallel Coordinates
+- Maps / Chloropleth
+
+<!--s-->
+
+### Residual Plots
+
+Residual plots are a great way to visualize the residuals of a model. They can help you identify patterns in the residuals, which can help you identify issues with your model.
+
+<iframe width = "100%" height = "100%" src="https://storage.googleapis.com/slide_assets/residual.html" title="scatter_plot" padding=2em;></iframe>
+
+<!--s-->
+
+### Regression in 3D
+
+Regression in 3D is a great way to visualize the relationship between three numerical variables.
+
+<iframe width = "100%" height = "100%" src="https://storage.googleapis.com/slide_assets/svr.html" title="scatter_plot" padding=2em;></iframe>
+<!--s-->
+
+### Decision Boundary
+
+Decision boundaries are a great way to visualize the decision-making process of a classification model.
+
+<iframe width = "100%" height = "100%" src="https://storage.googleapis.com/slide_assets/contour.html" title="scatter_plot" padding=2em;></iframe>
+
+<!--s-->
+
+### Parallel Coordinates
+
+Parallel coordinates are a great way to visualize the relationship between multiple numerical variables, often used to represent hyperparameter tuning results.
+
+<iframe width = "100%" height = "100%" src="https://storage.googleapis.com/slide_assets/parcoords.html" title="scatter_plot" padding=2em;></iframe>
+
+<!--s-->
+
+### Maps / Chloropleth
+
+Chloropleths are a great way to visualize data that is geographically distributed. They can help you understand the spatial distribution of the data, and can help you identify patterns in the data.
+
+<iframe width = "100%" height = "100%" src="https://storage.googleapis.com/slide_assets/choropleth.html" title="scatter_plot" padding=2em;></iframe>
+
+<!--s-->
+
+## EDA | Q.03
+
+We have some extra space in the schedule. My goal with CS 326 is to teach you data science fundamentals, and along the way get you a few extra-useful tools that you can take with you. With that in mind, please select the topic you would most like to see covered before the midterm.
+
+<div class="col-wrapper">
+<div class="c1" style = "width: 60%;">
+
+&emsp;A. Introduction to Snowflake <br>
+&emsp;B. Advanced GitHub <br>
+&emsp;C. Docker & Scalable Infrastructure <br>
+</div>
+
+<div class="c2" style = "width: 40%;">
+
+[[PEV🔗](https://canvas.northwestern.edu/courses/226962/external_tools/50852)]
+
+</div>
+</div>
+
+
+<!--s-->
+
 ## TLDR;
 
 - **Descriptive EDA**: Summarizing the main characteristics of the data.
@@ -598,10 +745,53 @@ fig.show()
 
 <!--s-->
 
-<div class = "header-slide">
+<div class = "col-wrapper">
+  <div class="c1 col-centered">
+  <div style="font-size: 1em; left: 0; width: 50%; position: absolute;">
 
-# H.01 | hello_world.py
-Due: 10.01.2024 <br>
+  # H.02 | basic_statistics.py
+  ## Code & Free Response
+  ### Due: 01.28.2025 @ 11:59 PM
+
+```bash
+cd <class directory>
+git pull
+```
+
+</div>
+</div>
+<div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 0%">
+<iframe src="https://lottie.host/embed/6c677caa-d54a-411c-b0c0-6f186378d571/UKVVhf0EJN.json" height = "100%" width = "100%"></iframe>
+
+</div>
+</div>
+
+<!--s-->
+
+## Additional Slides
+
+<!--s-->
+
+## Question: Why is Kurtosis = 3 in a Normal Distribution?
+
+In probability, the **moments** of a distribution are a set of quantities that describe its shape. A moment is a specific quantitative measure of the shape of a set of points.
+
+<img src = "https://storage.googleapis.com/cs326-bucket/moments.png" style = "width: 100%">
+<p style="text-align: center; font-size: 0.6em; color: grey;"> Source: https://en.wikipedia.org/wiki/Standardized_moment</p>
+
+<!--s-->
+
+## Question: Why is Kurtosis = 3 in a Normal Distribution?
+
+In probability, the **moments** of a distribution are a set of quantities that describe its shape. A moment is a specific quantitative measure of the shape of a set of points.
+
+You will often see kurtosis notated as the fourth moment about the mean, divided by the standard deviation to the fourth power:
+
+$$ \frac{\mu_4}{\sigma^4} $$
+
+A property of normal distributions is that the $ \mu_4 $ is equal to $3 \sigma^4$, so:
+
+$$ \frac{3 \sigma^4}{\sigma^4} = 3 $$
 
 </div>
 

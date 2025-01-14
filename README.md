@@ -13,15 +13,15 @@ This schedule is tentative and may change as the course progresses.
 | Lecture | Date | Topic | Homework Due |
 | --- | --- | --- | --- |
 | 1 | 01.07.2025 | [Course Overview](https://drc-cs.github.io/WINTER25-CS326/lectures/L01_overview/#/) | |
-| 2 | 01.09.2025 | Data Collection and Structure | |
-| 3 | 01.14.2025 | Exploratory Data Analysis | [H.01](https://canvas.northwestern.edu/courses/226962/assignments/1508084) |
+| 2 | 01.09.2025 | [Data Collection and Structure](https://drc-cs.github.io/WINTER25-CS326/lectures/L02_data_sources/#/) | |
+| 3 | 01.14.2025 | [Exploratory Data Analysis](https://drc-cs.github.io/WINTER25-CS326/lectures/L03_eda/#/) | [H.01](https://canvas.northwestern.edu/courses/226962/assignments/1508084) |
 | 4 | 01.16.2025 | Correlation, Association, and Simpson's Paradox | |
 | 5 | 01.21.2025 | Hypothesis Testing | |
 | 6 | 01.23.2025 | Data Preprocessing | |
-| 7 | 01.28.2025 | Statistical Learning | H.02 |
-| 8 | 01.30.2025 | Supervised Machine Learning I <br> *KNN / Logistic Regression* | |
-| 9 | 02.04.2025 | Supervised Machine Learning II <br>  *ROC-AUC / K-Fold / Multi-Class* | |
-| 12 | 02.06.2025 | Supervised Machine Learning III <br> *Decision Trees / Ensembles* | H.03 |
+| 7 | 01.28.2025 | Supervised Machine Learning I <br> *KNN / Linear & Logistic Regression* | H.02 |
+| 8 | 01.30.2025 | Supervised Machine Learning II <br>  *ROC-AUC / K-Fold / Multi-Class* <br> | |
+| 9 | 02.04.2025 | Supervised Machine Learning III <br>  *Decision Trees / Ensemble Models*| |
+| 12 | 02.06.2025 | Bonus Lecture TBD | H.03 |
 | 10 | 02.11.2025 | Exam Part I | |
 | 11 | 02.13.2025 | Dimensionality Reduction | |
 | 13 | 02.18.2025 | Clustering Algorithms | |
@@ -41,10 +41,10 @@ There is a high emphasis on the practical application of the concepts covered in
 
 | Component | Weight |
 | --- | --- |
+| Attendance | 10% |
 | Homework | 50% |
 | Exam Part I | 20% |
 | Exam Part II | 20% |
-| Attendance | 10% |
 
 ------
 
@@ -150,3 +150,6 @@ If you are feeling distressed or overwhelmed, please reach out for help. Student
 -----
 
 ## Office Hours
+
+- 1-2P on Tuesdays in Mudd 3532
+- 2-3P on Thursdays in Mudd 3532
