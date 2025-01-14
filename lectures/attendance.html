@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS326 Form</title>
+</head>
+<body>
+
+<div id="login-form">
+    <h2>Login</h2>
+    <input type="email" id="email" placeholder="Email"><br><br>
+    <input type="password" id="password" placeholder="Password"><br><br>
+    <button id="login-button">Login</button>
+    <p id="login-status"></p>
+</div>
+
+<div id="submit-section" style="display: none;">
+    <h2>Submit Your Choice</h2>
+    <input type="text" id="choice" placeholder="Enter A, B, or C"><br><br>
+    <button id="submit-button">Submit</button>
+    <button id="logout-button">Logout</button>
+    <p id="submit-status"></p>
+</div>
+
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js";
+    import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js";
+
+    // Firebase configuration
+    const firebaseConfig = {
+        apiKey: "AIzaSyDp0FpJO01nRWeW4ZWZHet8V_Gcvl0xLAc"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+
+    // Check authentication state and setup UI accordingly
+    onAuthStateChanged(auth, (user) => {
+        if (user) {
+            document.getElementById('login-form').style.display = 'none';
+            document.getElementById('submit-section').style.display = 'block';
+        } else {
+            document.getElementById('login-form').style.display = 'block';
+            document.getElementById('submit-section').style.display = 'none';
+        }
+    });
+
+    // Login event
+    document.getElementById('login-button').addEventListener('click', () => {
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+
+        signInWithEmailAndPassword(auth, email, password)
+        .then(() => {
+            document.getElementById('login-status').innerText = "Login successful!";
+        })
+        .catch((error) => {
+            document.getElementById('login-status').innerText = "Error: " + error.message;
+        });
+    });
+
+    // Submit data event
+    document.getElementById('submit-button').addEventListener('click', () => {
+        const choice = document.getElementById('choice').value.toUpperCase();
+        if (choice !== 'A' && choice !== 'B' && choice !== 'C') {
+            document.getElementById('submit-status').innerText = "Please enter a valid choice: A, B, or C.";
+            return;
+        }
+
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition((position) => {
+                const lat = position.coords.latitude;
+                const long = position.coords.longitude;
+                console.log(lat, long);
+                auth.currentUser.getIdToken(/* forceRefresh */ true).then((idToken) => {
+                    const email = auth.currentUser.email;
+                    fetch('http://localhost:3000/endpoint', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': 'Bearer ' + idToken
+                        },
+                        body: JSON.stringify({ email, latitude: lat, longitude: long, choice: choice })
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById('submit-status').innerText = "Data submitted successfully!";
+                    })
+                    .catch(error => {
+                        document.getElementById('submit-status').innerText = "Error submitting data.";
+                    });
+                }).catch(error => {
+                    document.getElementById('submit-status').innerText = "Error getting authentication token.";
+                });
+            });
+        } else {
+            alert("Geolocation is not supported by this browser.");
+        }
+    });
+
+    // Logout event
+    document.getElementById('logout-button').addEventListener('click', () => {
+        signOut(auth).then(() => {
+            document.getElementById('login-status').innerText = "Logged out successfully.";
+        }).catch((error) => {
+            document.getElementById('login-status').innerText = "Error logging out: " + error.message;
+        });
+    });
+
+</script>
+
+</body>
+</html>
