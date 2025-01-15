@@ -39,3 +39,18 @@ revealOptions:
 </div>
 
 <!--s-->
+
+<div class = "col-wrapper">
+  <div class="c1 col-centered">
+  <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
+
+  # Today's Agenda
+  ## 1. Introduction to Data Science Pipelines
+  ## 2. Practice LX
+
+  </div>
+  </div>
+  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 40%; padding-top: 5%">
+    <iframe src = "https://drc-cs.github.io/WINTER25-CS326/lectures/index.html?label=LXX | Q2" width = "100%" height = "100%"></iframe>
+  </div>
+</div>
