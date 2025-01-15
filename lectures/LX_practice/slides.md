@@ -34,7 +34,7 @@ revealOptions:
   </div>
   </div>
   <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 40%; padding-top: 5%">
-    <iframe src = "https://drc-cs.github.io/WINTER25-CS326/lectures/#/?label=EDA%20|%20Q1" width = "100%" height = "100%"></iframe>
+    <iframe src = "https://drc-cs.github.io/WINTER25-CS326/lectures/index.html?label=Check In" width = "100%" height = "100%"></iframe>
   </div>
 </div>
 

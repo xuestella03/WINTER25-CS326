@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS326 Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #fff;
+        }
+
+        #login-form, #submit-section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #fff;
+            border-color: #4E2A84;
+            border-width: thin;
+            border-radius: 5px;
+            color: #4E2A84;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #f0f0f0;
+        }
+
+        #login-status, #submit-status {
+            margin-top: 15px;
+            color: #36454F;
+        }
+    </style>
+</head>
+<body>
+
+<div id="login-form">
+    <h2>Login</h2>
+    <input type="email" id="email" placeholder="Email"><br><br>
+    <input type="password" id="password" placeholder="Password"><br><br>
+    <button id="login-button">Login</button>
+    <p id="login-status"></p>
+</div>
+
+<div id="submit-section" style="display: none;">
+    <h2 id="response-label">Response</h2>
+    <input type="text" id="response" placeholder="Enter your response."><br><br>
+    <button id="submit-button" style="margin-bottom: 1em;">Submit</button>
+    <button id="logout-button">Logout</button>
+    <p id="submit-status"></p>
+</div>
+
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js";
+    import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js";
+    import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js";
+
+    // Firebase configuration
+    const firebaseConfig = {
+        apiKey: "AIzaSyDp0FpJO01nRWeW4ZWZHet8V_Gcvl0xLAc",
+        databaseURL: "https://drc-cs-9a3f6-default-rtdb.firebaseio.com",
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const database = getDatabase(app);
+
+    // Check URL for label parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const label = urlParams.get('label') || 'Response'; // Default to 'Response' if not provided
+    document.getElementById('response-label').innerText = label;
+
+    // Check authentication state and setup UI accordingly
+    onAuthStateChanged(auth, (user) => {
+        if (user) {
+            document.getElementById('login-form').style.display = 'none';
+            document.getElementById('submit-section').style.display = 'block';
+        } else {
+            document.getElementById('login-form').style.display = 'block';
+            document.getElementById('submit-section').style.display = 'none';
+        }
+    });
+
+    // Login event
+    document.getElementById('login-button').addEventListener('click', () => {
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+
+        signInWithEmailAndPassword(auth, email, password)
+        .then(() => {
+            document.getElementById('login-status').innerText = "Login successful!";
+        })
+        .catch((error) => {
+            document.getElementById('login-status').innerText = "Error: " + error.message;
+        });
+    });
+
+    // Submit data event
+    document.getElementById('submit-button').addEventListener('click', async () => {
+        const user_response = document.getElementById('response').value.toUpperCase();
+
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(async (position) => {
+                const lat = position.coords.latitude;
+                const long = position.coords.longitude;
+
+                try {
+                    const user = auth.currentUser;
+                    const idToken = await user.getIdToken();
+                    const uid = user.uid;
+                    const uuid = crypto.randomUUID();
+                    const timestamp = Date.now();
+
+                    // Push data to Firebase Realtime Database
+                    set(ref(database, `users/${uid}/${uuid}`), {
+                        email: user.email,
+                        latitude: lat,
+                        longitude: long,
+                        user_response: user_response,
+                        timestamp: timestamp,
+                        label: label // Include label parameter in the data
+                    }).then(() => {
+                        document.getElementById('submit-status').innerText = "Data submitted successfully!";
+                    }).catch((error) => {
+                        document.getElementById('submit-status').innerText = "Error submitting data.";
+                    });
+
+                } catch (error) {
+                    document.getElementById('submit-status').innerText = "Error getting authentication token.";
+                }
+            });
+        } else {
+            alert("Geolocation is not supported by this browser.");
+        }
+    });
+
+    // Logout event
+    document.getElementById('logout-button').addEventListener('click', () => {
+        signOut(auth).then(() => {
+            document.getElementById('login-status').innerText = "Logged out successfully.";
+        }).catch((error) => {
+            document.getElementById('login-status').innerText = "Error logging out: " + error.message;
+        });
+    });
+
+</script>
+
+</body>
+</html>
