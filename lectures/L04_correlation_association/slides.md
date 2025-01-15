@@ -24,17 +24,29 @@ revealOptions:
 
 <!--s-->
 
+## Announcements
+
+- PollEV has been removed. Everyone will receive credit for the first 3 lectures.
+  - New system is being tried out today. Please log in using your email and password from the homework assignments.
+
+- H.01 is being graded now.
+
+- H.02 is due on Tuesday, January 28 at 11:59 PM.
+
+
+<!--s-->
+
 <div class = "col-wrapper">
   <div class="c1 col-centered">
   <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
 
   # Welcome to CS 326.
-  ## Please check in by entering the code.
+  ## Please check in by entering the code on the chalkboard.
 
   </div>
   </div>
   <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 40%; padding-top: 5%">
-    <iframe src = "https://drc-cs.github.io/WINTER25-CS326/lectures/#/?label=EDA%20|%20Q1" width = "100%" height = "100%"></iframe>
+    <iframe src = "https://drc-cs.github.io/WINTER25-CS326/lectures/index.html?label=Check In" width = "100%" height = "100%"></iframe>
   </div>
 </div>
 
@@ -208,6 +220,30 @@ $ d_i = \text{rank}(x_i) - \text{rank}(y_i) $
 - Correlation coefficients measure the strength of a linear relationship between two variables.
 - Regression analysis can be used to describe the relationship between a dependent variable and one or more independent variables.
 
+<!--s-->
+
+## L.04 | Q.02
+
+What is a benefit of using Pearson's correlation coefficient over covariance?
+
+<div class="col-wrapper">
+<div class="c1 col-centered" style = "width: 70%; padding-bottom: 20%;">
+
+<div style = "line-height: 2em; font-size: 0.8em;">
+&emsp;A. It is a standardized measure of the strength of the relationship. <br>
+&emsp;B. It is not sensitive to outliers. <br>
+&emsp;C. It is not affected by the scale of the variables. <br>
+&emsp;D. It is not affected by the distribution of the data. <br>
+</div>
+
+</div>
+
+<div class="c2 col-centered" style = "width: 30%; padding-bottom: 20%">
+
+<iframe src = "https://drc-cs.github.io/WINTER25-CS326/lectures/index.html?label=L.04 | Q.02" width = "100%" height = "100%"></iframe>
+
+</div>
+</div>
 
 <!--s-->
 
@@ -431,6 +467,30 @@ This principle allows us to reduce the number of itemsets we need to consider wh
 <img src="https://www.researchgate.net/profile/Darshan-Tank/publication/276231946/figure/fig2/AS:406644845498372@1473963094797/An-illustration-of-the-Apriori-principle.png" style="border-radius:15px; height: 20%; width: 50%;">
 </div>
 <p style="text-align: center; font-size: 0.6em; color: grey;">Tank, Darshan. (2014)</p>
+
+<!--s-->
+
+## L.04 | Q.02
+
+What is otherwise defined as the *interestingness* of an association rule?
+
+<div class="col-wrapper">
+<div class="c1 col-centered" style = "width: 70%; padding-bottom: 20%;">
+
+<div style = "line-height: 2em; font-size: 0.8em;">
+&emsp;A. Confidence <br>
+&emsp;B. Support <br>
+&emsp;C. Lift <br>
+</div>
+
+</div>
+
+<div class="c2 col-centered" style = "width: 30%; padding-bottom: 20%">
+
+<iframe src = "https://drc-cs.github.io/WINTER25-CS326/lectures/index.html?label=L.04 | Q.02" width = "100%" height = "100%"></iframe>
+
+</div>
+</div>
 
 <!--s-->
 
