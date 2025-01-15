@@ -37,12 +37,18 @@
             font-size: 16px;
         }
 
+        input:focus {
+            border: 1px solid #4E2A84;
+            border-color: #4E2A84;
+            outline: #4E2A84
+        } 
+
         button {
             width: 100%;
             padding: 10px;
             background-color: #fff;
             border-color: #4E2A84;
-            border-width: thin;
+            border-width: 1px;
             border-radius: 5px;
             color: #4E2A84;
             font-size: 16px;
@@ -51,7 +57,7 @@
         }
 
         button:hover {
-            background-color: #f0f0f0;
+            background-color: #9635b30a;
         }
 
         #login-status, #submit-status {
@@ -63,7 +69,7 @@
 <body>
 
 <div id="login-form">
-    <h2>Login</h2>
+    <p style = "font-size: 1.5em;">Login</p>
     <input type="email" id="email" placeholder="Email"><br><br>
     <input type="password" id="password" placeholder="Password"><br><br>
     <button id="login-button">Login</button>
@@ -71,7 +77,7 @@
 </div>
 
 <div id="submit-section" style="display: none;">
-    <h2 id="response-label">Response</h2>
+    <p id="response-label" style = "font-size: 1.5em;">Response</p>
     <input type="text" id="response" placeholder="Enter your response."><br><br>
     <button id="submit-button" style="margin-bottom: 1em;">Submit</button>
     <button id="logout-button">Logout</button>
