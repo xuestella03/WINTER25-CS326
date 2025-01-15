@@ -24,6 +24,18 @@ revealOptions:
 
 <!--s-->
 
-<iframe src = "https://drc-cs.github.io/WINTER25-CS326/lectures/#/" width = "100%" height = "100%"></iframe>
+<div class = "col-wrapper">
+  <div class="c1 col-centered">
+  <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
+
+  # Welcome to CS 326.
+  ## Please check in by entering <span class="code-span">TEST</span>
+
+  </div>
+  </div>
+  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 40%; padding-top: 5%">
+    <iframe src = "https://drc-cs.github.io/WINTER25-CS326/lectures/#/" width = "100%" height = "100%"></iframe>
+  </div>
+</div>
 
 <!--s-->
