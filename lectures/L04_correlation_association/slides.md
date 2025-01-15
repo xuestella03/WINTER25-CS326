@@ -26,47 +26,19 @@ revealOptions:
 
 <div class = "col-wrapper">
   <div class="c1 col-centered">
-  <div style="font-size: 0.8em; left: 0; width: 70%; position: absolute;">
+  <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
 
   # Welcome to CS 326.
-  ## Please check in using PollEverywhere.
-  Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
+  ## Please check in by entering the code.
 
   </div>
   </div>
-  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%">
-  <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
+  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 40%; padding-top: 5%">
+    <iframe src = "https://drc-cs.github.io/WINTER25-CS326/lectures/#/?label=EDA%20|%20Q1" width = "100%" height = "100%"></iframe>
   </div>
 </div>
 
 <!--s-->
-
-## Question: Why is Kurtosis = 3 in a Normal Distribution?
-
-In probability, the **moments** of a distribution are a set of quantities that describe its shape. A moment is a specific quantitative measure of the shape of a set of points.
-
-<img src = "https://storage.googleapis.com/cs326-bucket/moments.png" style = "width: 100%">
-<p style="text-align: center; font-size: 0.6em; color: grey;"> Source: https://en.wikipedia.org/wiki/Standardized_moment</p>
-
-<!--s-->
-
-## Question: Why is Kurtosis = 3 in a Normal Distribution?
-
-In probability, the **moments** of a distribution are a set of quantities that describe its shape. A moment is a specific quantitative measure of the shape of a set of points.
-
-You will often see kurtosis notated as the fourth moment about the mean, divided by the standard deviation to the fourth power:
-
-$$ \frac{\mu_4}{\sigma^4} $$
-
-A property of normal distributions is that the $ \mu_4 $ is equal to $3 \sigma^4$, so:
-
-$$ \frac{3 \sigma^4}{\sigma^4} = 3 $$
-
-</div>
-
-<!--s-->
-
-
 
 <div class = "header-slide">
 
