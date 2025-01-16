@@ -33,6 +33,8 @@ revealOptions:
 
 - H.02 is due on Tuesday, January 28 at 11:59 PM.
 
+- 50% of you voted for "Docker & Scalable Infrastructure" for our bonus 02.06.2025 lecture.
+
 
 <!--s-->
 
