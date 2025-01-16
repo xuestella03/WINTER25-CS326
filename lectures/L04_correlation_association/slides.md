@@ -503,3 +503,21 @@ What is otherwise defined as the *interestingness* of an association rule?
 - **Association Analysis** measures the strength of co-occurrence between one item and another.
 
 <!--s-->
+
+<div class = "col-wrapper">
+  <div class="c1 col-centered">
+  <div style="font-size: 1em; left: 0; width: 50%; position: absolute;">
+
+  # H.02 | basic_statistics.py
+  ## Code & Free Response
+  ### Due: 01.28.2025 @ 11:59 PM
+
+</div>
+</div>
+<div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 0%">
+<iframe src="https://lottie.host/embed/6c677caa-d54a-411c-b0c0-6f186378d571/UKVVhf0EJN.json" height = "100%" width = "100%"></iframe>
+
+</div>
+</div>
+
+<!--s-->
