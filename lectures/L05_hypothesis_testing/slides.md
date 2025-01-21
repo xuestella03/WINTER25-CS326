@@ -211,6 +211,8 @@ What test would you use to compare the two groups, assuming all conditions are m
 
 ## Common Hypothesis Tests | T-Test Setup
 
+<div style="font-size: 0.9em">
+
 ### Scenario
 
 Comparing the effect of two medications. Medication A has been used on 40 subjects, having an average recovery time of 8 days, with a standard deviation of 2 days. Medication B (new) has been used on 50 subjects, with an average recovery time of 7 days and a standard deviation of 2.5 days. 
@@ -228,6 +230,8 @@ Comparing the effect of two medications. Medication A has been used on 40 subjec
     - Once you have enough samples, the central limit theorem will ensure normality.
 - Equal variances between the two groups (homoscedasticity).*
     - If variances are not equal, a Welch's t-test can be used.
+
+</div>
 
 <!--s-->
 
@@ -643,7 +647,7 @@ To understand the impact of tagging a friend during a trial period, a structured
 
   </div>
   </div>
-  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%">
+  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 50%; padding-top: 5%">
   <iframe src = "https://drc-cs.github.io/WINTER25-CS326/lectures/index.html?label=Exit Poll" width = "100%" height = "100%"></iframe>
   </div>
 </div>
