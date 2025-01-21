@@ -18,7 +18,7 @@ This schedule is tentative and may change as the course progresses.
 | 4 | 01.16.2025 | [Correlation, Association, and Simpson's Paradox](https://drc-cs.github.io/WINTER25-CS326/lectures/L04_correlation_association/#/) | |
 | 5 | 01.21.2025 | [Hypothesis Testing](https://drc-cs.github.io/WINTER25-CS326/lectures/L05_hypothesis_testing/#/) | |
 | 6 | 01.23.2025 | Data Preprocessing | |
-| 7 | 01.28.2025 | Supervised Machine Learning I <br> *KNN / Linear & Logistic Regression* | H.02 |
+| 7 | 01.28.2025 | Supervised Machine Learning I <br> *KNN / Linear & Logistic Regression* | [H.02](https://canvas.northwestern.edu/courses/226962/assignments/1508086) |
 | 8 | 01.30.2025 | Supervised Machine Learning II <br>  *ROC-AUC / K-Fold / Multi-Class* <br> | |
 | 9 | 02.04.2025 | Supervised Machine Learning III <br>  *Decision Trees / Ensemble Models*| |
 | 12 | 02.06.2025 | Bonus Lecture TBD | H.03 |
