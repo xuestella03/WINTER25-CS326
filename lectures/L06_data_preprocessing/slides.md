@@ -32,8 +32,8 @@ revealOptions:
 
   </div>
   </div>
-  <div class="c2 col-centered" style="width: 40%; padding: 1px; margin: 1px; background: linear-gradient(135deg,rgba(211, 28, 236, 0.52), rgb(103, 8, 147)); border-radius: 10px; background-opacity: 0.5;">
-  <iframe style = "border-radius: 10px;"src = "https://drc-cs.github.io/WINTER25-CS326/lectures/index.html?label=Check In" width = "100%" height = "100%"></iframe>
+  <div class="c2 col-centered" style="background: linear-gradient(135deg,rgba(206, 36, 181, 0.68), rgb(141, 12, 201)); border-radius: 10px; animation: gradient-animation 2s ease-in infinite; background-size: 200% 200%;">
+  <iframe style="border-radius: 10px;" src="https://drc-cs.github.io/WINTER25-CS326/lectures/index.html?label=Check In" width = "100%" height = "100%"></iframe>
   </div>
 </div>
 
@@ -45,7 +45,7 @@ revealOptions:
 
 - Office hours today from 2-3PM.
 
-- Speed improvements for interactive quizzes.
+- Speed improvements for interactive quizzes. 🏎️🏎️🏎️
 
 <!--s-->
 
@@ -76,16 +76,17 @@ For complicated topics, consider slowing down the pace slightly or offering addi
 
 <div class = "col-wrapper">
   <div class="c1 col-centered">
-  <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
+    <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
 
   # Intro Poll
   ## On a scale of 1-5, how confident are you in taking a raw dataset and transforming it into a machine learning-ready dataset?
 
   </div>
   </div>
-  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 30%; padding-top: 5%">
-  <iframe src = "https://drc-cs.github.io/WINTER25-CS326/lectures/index.html?label=Intro Poll" width = "100%" height = "100%"></iframe>
+  <div class="c2 col-centered" style="background: linear-gradient(135deg,rgba(206, 36, 181, 0.68), rgb(141, 12, 201)); border-radius: 10px; animation: gradient-animation 2s ease-in infinite; background-size: 200% 200%;">
+  <iframe style="border-radius: 10px;" src="https://drc-cs.github.io/WINTER25-CS326/lectures/index.html?label=Intro Poll" width = "100%" height = "100%"></iframe>
   </div>
+
 </div>
 
 <!--s-->
@@ -276,7 +277,7 @@ transformer.transform(data)
 
 ## Numerical Data | Binning
 
-<img src="https://storage.googleapis.com/cs326-bucket/lecture_6/binning.png">
+<img src="https://storage.googleapis.com/cs326-bucket/lecture_6/binning.png" style="display: block; margin: 0 auto; border-radius: 10px;">
 
 <!--s-->
 
@@ -292,7 +293,7 @@ transformed = np.log(data)
 
 <br><br>
 
-<img src="https://www.researchgate.net/profile/Matthieu-Komorowski-2/publication/308007227/figure/fig5/AS:405478883512321@1473685107077/55-Example-of-the-effect-of-a-log-transformation-on-the-distribution-of-the-dataset.png" width="500" style="display: block; margin: 0 auto;">
+<img src="https://storage.googleapis.com/slide_assets/long-tail.png" width="500" style="display: block; margin: 0 auto;">
 <p style="text-align: center; font-size: 0.6em; color: grey;">Komorowski, 2016</p>
 
 
@@ -394,21 +395,21 @@ array([[-1,  0],
 
 <!--s-->
 
-## Question | One-Hot Encoding vs. Feature Hashing
+## L.06 | Q.01
+
+<div class='col-wrapper' style = 'display: flex; align-items: top;'>
+<div class='c1' style = 'width: 60%; display: flex; flex-direction: column;'>
 
 You are working with a dataset that contains a feature with 100 unique categories. You are unsure if all categories are present in the training set, and you want to reduce the dimensionality of the feature space. Which method would you use?
 
-<div class='col-wrapper' style = 'display: flex; align-items: top; margin-top: 2em; margin-left: -1em;'>
-<div class='c1' style = 'width: 60%; display: flex; align-items: center; flex-direction: column; margin-top: 2em'>
 <div style = 'line-height: 2em;'>
 &emsp;A. One-Hot Encoding <br>
 &emsp;B. Feature Hashing <br>
 </div>
 </div>
-<div class='c2' style = 'width: 40%; display: flex; align-items: center; flex-direction: column;'>
-<img src='https://storage.googleapis.com/slide_assets/PollEverywhere.png' width='100%'>
-<a>poll.ev.com/nucs</a>
-</div>
+<div class="c2 col-centered" style="background: linear-gradient(135deg,rgba(206, 36, 181, 0.68), rgb(141, 12, 201)); border-radius: 10px; animation: gradient-animation 2s ease-in infinite; background-size: 200% 200%;">
+  <iframe style="border-radius: 10px;" src="https://drc-cs.github.io/WINTER25-CS326/lectures/index.html?label=L.06 | Q.01" width = "100%" height = "100%"></iframe>
+  </div>
 </div>
 
 <!--s-->
@@ -439,7 +440,7 @@ date|month|day
 
 ## Missing Data | Imputation
 
-We covered imputation in more detail in [L.02](https://drc-cs.github.io/cs326/lectures/L02_data_sources/#/25).
+We covered imputation in more detail in [L.02](https://drc-cs.github.io/WINTER25-CS326/lectures/L02_data_sources/#/32).
 
 <div style = "font-size: 0.85em;">
 
@@ -486,7 +487,7 @@ We covered imputation in more detail in [L.02](https://drc-cs.github.io/cs326/le
 
 **Takeaway**: With regards to machine learning, this means that as the number of features increases, the amount of data required to cover the feature space grows exponentially. Given that we need more data to cover the feature space effectively, and we rarely do, this can lead to overfitting and poor generalization.
 
-<img src="https://www.researchgate.net/profile/Mahua-Bhattacharya/publication/264823819/figure/fig1/AS:651533758787592@1532349161929/The-curse-of-dimensionality-a-11-objects-in-one-unit-bin-b-6-objects-in-one-unit-bin.png" width="500" style="display: block; margin: 0 auto;">
+<img src="https://storage.googleapis.com/slide_assets/dimensionality.png" width="500" style="display: block; margin: 0 auto;">
 <p style="text-align: center; font-size: 0.6em; color: grey;">Rajput, 2012</p>
 
 <!--s-->
@@ -517,7 +518,7 @@ This works because the random forest model is selecting the features that are mo
 <div class = "col-wrapper">
 <div class="c1" style = "width: 50%">
 
-<img src="https://miro.medium.com/v2/resize:fit:1010/1*R3oJiyaQwyLUyLZL-scDpw.png" width="300" style="display: block; margin: 0 auto;">
+<img src="https://miro.medium.com/v2/resize:fit:1010/1*R3oJiyaQwyLUyLZL-scDpw.png" width="300" style="display: block; margin: 0 auto; border-radius: 10px;">
 <p style="text-align: center; font-size: 0.6em; color: grey;">Deniz Gunay, 2023</p>
 
 </div>
@@ -544,7 +545,7 @@ Gaussian random projection is a type of random projection that uses a Gaussian d
 
 Johnson-Lindenstrauss Lemma states that a random projection can preserve the pairwise distances between the data points with high probability (up to a constant factor).
 
-<img src = "https://www.researchgate.net/publication/362583995/figure/fig3/AS:11431281085524461@1663781154442/Dimension-Reduction-using-Random-Projection-37.jpg" width="500" style="display: block; margin: 0 auto;">
+<img src = "https://storage.googleapis.com/slide_assets/gaussian_projection.png" width="500" style="display: block; margin: 0 auto;">
 <p style="text-align: center; font-size: 0.6em; color: grey;">Ratra, 2022</p>
 
 ```python
@@ -585,43 +586,18 @@ pca.transform(data)
 
 <div class = "col-wrapper">
   <div class="c1 col-centered">
-  <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
+    <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
 
   # Exit Poll
   ## On a scale of 1-5, how confident are you in taking a raw dataset and transforming it into a machine learning-ready dataset?
 
-  Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
-
   </div>
   </div>
-  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%">
-  <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
+  <div class="c2 col-centered" style="background: linear-gradient(135deg,rgba(206, 36, 181, 0.68), rgb(141, 12, 201)); border-radius: 10px; animation: gradient-animation 2s ease-in infinite; background-size: 200% 200%;">
+  <iframe style="border-radius: 10px;" src="https://drc-cs.github.io/WINTER25-CS326/lectures/index.html?label=Exit Poll" width = "100%" height = "100%"></iframe>
   </div>
-</div>
-
-<!--s-->
-
-<div class="header-slide">
-
-# P.02 | Elevator Pitch
 
 </div>
-
-<!--s-->
-
-## P.02 | Elevator Pitch
-
-An elevator pitch is a brief, persuasive speech that you can use to spark interest in what your project is about. You can also use it to create interest in a project, idea, or product – or in yourself. A good elevator pitch should last no longer than a short elevator ride of 20 to 30 seconds, hence the name.
-
-For P.02, you are expected to do an elevator pitch style presentation. This means you should be able to explain your project in a concise and engaging manner. We'll relax the contraints a bit, but you should aim for a total 5 minute presentation that at minimum covers your plans for the following aspects of your project:
-
-1. Data Source
-2. Data Exploration
-3. Data Preprocessing
-4. Data Modeling
-5. Data Interpretation
-
-You should have **one slide per topic**. Everyone needs to speak. You will each be graded on your ability to communicate your domain of the project effectively and concisely. Your team will have this presentation on 10.31 or 11.05.
 
 <!--s-->
 
@@ -631,7 +607,6 @@ You should have **one slide per topic**. Everyone needs to speak. You will each 
 
   # H.02 | basic_statistics.py
   ## Code & Free Response
-  ### Due: 10.15.2024 @ 11:59 PM
 
 ```bash
 cd <class directory>
