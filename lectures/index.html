@@ -62,7 +62,9 @@
 
         #login-status, #submit-status {
             margin-top: 15px;
-            color: #36454F;
+            color: #5d656a;
+            font-size: 0.8em;
+            text-align: left;
         }
     </style>
 </head>
@@ -84,6 +86,7 @@
     <p id="submit-status"></p>
 </div>
 
+
 <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js";
     import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js";
@@ -100,16 +103,43 @@
     const auth = getAuth(app);
     const database = getDatabase(app);
 
+    let idToken = null; // To store the Firebase token
+    let userLocation = {}; // To store the user's location
+
+    // Function to get user location
+    function getUserLocation() {
+        return new Promise((resolve, reject) => {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(
+                    (position) => resolve({
+                        latitude: position.coords.latitude,
+                        longitude: position.coords.longitude
+                    }),
+                    (error) => reject("Geolocation error: " + error.message),
+                    { timeout: 10000 } // 10 seconds timeout for geolocation
+                );
+            } else {
+                reject("Geolocation is not supported by this browser.");
+            }
+        });
+    }
+
     // Check URL for label parameter
     const urlParams = new URLSearchParams(window.location.search);
     const label = urlParams.get('label') || 'Response'; // Default to 'Response' if not provided
     document.getElementById('response-label').innerText = label;
 
     // Check authentication state and setup UI accordingly
-    onAuthStateChanged(auth, (user) => {
+    onAuthStateChanged(auth, async (user) => {
         if (user) {
             document.getElementById('login-form').style.display = 'none';
             document.getElementById('submit-section').style.display = 'block';
+
+            try {
+                idToken = await user.getIdToken(); // Get the Firebase token once
+            } catch (error) {
+                document.getElementById('login-status').innerText = "Error getting authentication token: " + error.message;
+            }
         } else {
             document.getElementById('login-form').style.display = 'block';
             document.getElementById('submit-section').style.display = 'none';
@@ -117,61 +147,73 @@
     });
 
     // Login event
-    document.getElementById('login-button').addEventListener('click', () => {
+    document.getElementById('login-button').addEventListener('click', async () => {
         const email = document.getElementById('email').value;
         const password = document.getElementById('password').value;
 
-        signInWithEmailAndPassword(auth, email, password)
-        .then(() => {
+        try {
+            const userCredential = await signInWithEmailAndPassword(auth, email, password);
             document.getElementById('login-status').innerText = "Login successful!";
-        })
-        .catch((error) => {
-            document.getElementById('login-status').innerText = "Error: " + error.message;
-        });
-    });
 
+            // Get user location at login
+            try {
+                userLocation = await getUserLocation();
+            } catch (locError) {
+                document.getElementById('login-status').innerText = "Login successful! But geolocation failed: " + locError;
+            }
+
+        } catch (error) {
+            document.getElementById('login-status').innerText = "Error: " + error.message;
+        }
+    });
     // Submit data event
     document.getElementById('submit-button').addEventListener('click', async () => {
         const user_response = document.getElementById('response').value.toUpperCase();
 
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(async (position) => {
-                const lat = position.coords.latitude;
-                const long = position.coords.longitude;
+        if (!idToken) {
+            document.getElementById('submit-status').innerText = "No authentication token available. Please re-login.";
+            return;
+        }
 
-                try {
-                    const user = auth.currentUser;
-                    const idToken = await user.getIdToken();
-                    const uid = user.uid;
-                    const uuid = crypto.randomUUID();
-                    const timestamp = Date.now();
+        try {
+            const user = auth.currentUser;
+            const uid = user.uid;
+            const uuid = crypto.randomUUID();
+            const timestamp = Date.now();
+            const datetime = new Date(timestamp).toLocaleString(); // Convert timestamp to local date and time string
 
-                    // Push data to Firebase Realtime Database
-                    set(ref(database, `users/${uid}/${uuid}`), {
-                        email: user.email,
-                        latitude: lat,
-                        longitude: long,
-                        user_response: user_response,
-                        timestamp: timestamp,
-                        label: label // Include label parameter in the data
-                    }).then(() => {
-                        document.getElementById('submit-status').innerText = "Data submitted successfully!";
-                    }).catch((error) => {
-                        document.getElementById('submit-status').innerText = "Error submitting data.";
-                    });
-
-                } catch (error) {
-                    document.getElementById('submit-status').innerText = "Error getting authentication token.";
-                }
+            // Push data to Firebase Realtime Database
+            await set(ref(database, `users/${uid}/${uuid}`), {
+                email: user.email,
+                latitude: userLocation.latitude || null, // Use previously obtained location
+                longitude: userLocation.longitude || null,
+                user_response: user_response,
+                timestamp: timestamp,
+                label: label // Include label parameter in the data
             });
-        } else {
-            alert("Geolocation is not supported by this browser.");
+
+            console.log(uid)
+            console.log(uuid)
+            
+            // Format the success message
+            const successMessage = {
+                submitted: "success",
+                user: user.email,
+                timestamp: datetime,
+                response: user_response
+            };
+            
+            document.getElementById('submit-status').innerText = JSON.stringify(successMessage, null, 4); // Use JSON.stringify for better formatting
+
+        } catch (error) {
+            document.getElementById('submit-status').innerText = "Error submitting data: " + error.message;
         }
     });
 
     // Logout event
     document.getElementById('logout-button').addEventListener('click', () => {
         signOut(auth).then(() => {
+            idToken = null; // Reset the token
             document.getElementById('login-status').innerText = "Logged out successfully.";
         }).catch((error) => {
             document.getElementById('login-status').innerText = "Error logging out: " + error.message;
