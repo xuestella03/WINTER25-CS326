@@ -31,7 +31,7 @@ def get_sql_query_basic() -> str:
         SQL query as a string.
     """
     query = """
-    INSERT_YOUR_QUERY_HERE.
+    select * from penguins
     """
     return query
 
@@ -49,7 +49,10 @@ def get_sql_query_challenge() -> str:
         SQL query as a string.
     """
     query = """
-    INSERT_YOUR_QUERY_HERE.
+    select species, sex, sum(bill_length_mm) as sum_bill_length_mm from penguins 
+    where sex = "male" 
+    group by species, sex 
+    order by sum_bill_length_mm asc
     """
     return query
 
@@ -69,7 +72,7 @@ def get_float64_column_names(df: pd.DataFrame) -> list[str]:
     Returns:
         List of strings with the float64 column names.
     """
-    raise NotImplementedError("You need to implement this function.")
+    return df.select_dtypes(["float64"]).columns.to_list()
     
 def get_missing_value_indices(df: pd.DataFrame, column: str) -> list[int]:
     """Get the row indices of missing values within a column.
@@ -87,7 +90,7 @@ def get_missing_value_indices(df: pd.DataFrame, column: str) -> list[int]:
     Returns:
         Indices of missing values, as a list of ints.
     """
-    raise NotImplementedError("You need to implement this function.")
+    return df[df[column].isnull()].index.tolist()
 
 def drop_missing_values(df: pd.DataFrame) -> pd.DataFrame:
     """Drop rows with missing values.
@@ -101,7 +104,7 @@ def drop_missing_values(df: pd.DataFrame) -> pd.DataFrame:
     Returns:
         DataFrame with missing values dropped.
     """
-    raise NotImplementedError("You need to implement this function.")
+    df.dropna(inplace=True)
 
 
 def fill_float64_cols_with_random_sample(df: pd.DataFrame, random_state=2024) -> pd.DataFrame:
