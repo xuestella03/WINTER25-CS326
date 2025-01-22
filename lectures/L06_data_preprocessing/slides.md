@@ -25,15 +25,15 @@ revealOptions:
 
 <div class = "col-wrapper">
   <div class="c1 col-centered">
-  <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
+  <div style="font-size: 0.8em; left: 0; width: 50%; position: absolute;">
 
   # Welcome to CS 326.
   ## Please check in by entering the code on the chalkboard.
 
   </div>
   </div>
-  <div class="c2 col-centered" style="background: linear-gradient(135deg,rgba(206, 36, 181, 0.68), rgb(141, 12, 201)); border-radius: 10px; animation: gradient-animation 2s ease-in infinite; background-size: 200% 200%;">
-  <iframe style="border-radius: 10px;" src="https://drc-cs.github.io/WINTER25-CS326/lectures/index.html?label=Check In" width = "100%" height = "100%"></iframe>
+  <div class="c2" style="width: 50%; height: 100%;">
+  <iframe src="https://drc-cs-9a3f6.web.app/?label=Enter Code" width="100%" height="100%" style="border-radius: 10px"></iframe>
   </div>
 </div>
 
@@ -83,8 +83,8 @@ For complicated topics, consider slowing down the pace slightly or offering addi
 
   </div>
   </div>
-  <div class="c2 col-centered" style="background: linear-gradient(135deg,rgba(206, 36, 181, 0.68), rgb(141, 12, 201)); border-radius: 10px; animation: gradient-animation 2s ease-in infinite; background-size: 200% 200%;">
-  <iframe style="border-radius: 10px;" src="https://drc-cs.github.io/WINTER25-CS326/lectures/index.html?label=Intro Poll" width = "100%" height = "100%"></iframe>
+  <div class="c2" style="width: 50%; height: 100%;">
+  <iframe src="https://drc-cs-9a3f6.web.app/?label=Intro Poll" width="100%" height="100%" style="border-radius: 10px"></iframe>
   </div>
 
 </div>
@@ -407,9 +407,9 @@ You are working with a dataset that contains a feature with 100 unique categorie
 &emsp;B. Feature Hashing <br>
 </div>
 </div>
-<div class="c2 col-centered" style="background: linear-gradient(135deg,rgba(206, 36, 181, 0.68), rgb(141, 12, 201)); border-radius: 10px; animation: gradient-animation 2s ease-in infinite; background-size: 200% 200%;">
-  <iframe style="border-radius: 10px;" src="https://drc-cs.github.io/WINTER25-CS326/lectures/index.html?label=L.06 | Q.01" width = "100%" height = "100%"></iframe>
-  </div>
+<div class="c2" style="width: 50%; height: 100%;">
+<iframe src="https://drc-cs-9a3f6.web.app/?label=L.06 | Q.01" width="100%" height="100%" style="border-radius: 10px"></iframe>
+</div>
 </div>
 
 <!--s-->
@@ -593,8 +593,8 @@ pca.transform(data)
 
   </div>
   </div>
-  <div class="c2 col-centered" style="background: linear-gradient(135deg,rgba(206, 36, 181, 0.68), rgb(141, 12, 201)); border-radius: 10px; animation: gradient-animation 2s ease-in infinite; background-size: 200% 200%;">
-  <iframe style="border-radius: 10px;" src="https://drc-cs.github.io/WINTER25-CS326/lectures/index.html?label=Exit Poll" width = "100%" height = "100%"></iframe>
+    <div class="c2" style="width: 50%; height: 100%;">
+  <iframe src="https://drc-cs-9a3f6.web.app/?label=Exit Poll" width="100%" height="100%" style="border-radius: 10px"></iframe>
   </div>
 
 </div>
