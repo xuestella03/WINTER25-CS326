@@ -28,7 +28,7 @@ revealOptions:
   <div style="font-size: 0.8em; left: 0; width: 50%; position: absolute;">
 
   # Welcome to CS 326.
-  ## Please check in by entering the code on the chalkboard.
+  ## Please check in by entering the code on the board.
 
   </div>
   </div>
@@ -571,6 +571,31 @@ pca = PCA(n_components=2)
 pca.fit(data)
 pca.transform(data)
 ```
+
+<!--s-->
+
+## L.06 | Q.02
+
+
+<div class = "col-wrapper">
+<div class="c1" style = "width: 60%">
+
+Here is an example where PCA was utilized to reduce the dimensionality of a dataset from 3 to 2 dimensions.
+
+The data was projected onto the first two principal components, which captured the most variability in the data (80% in PCA1 and 15% in PCA2).
+
+What is one issue you can think of with using PCA1 or PCA2 as features in a model? Hint: Think about the interpretability of the features.
+
+<img src = "https://storage.googleapis.com/slide_assets/pca_example.png" width="800" style="display: block; margin: 0 auto; border-radius: 10px;">
+
+</div>
+<div class="c2 col-centered" style = "width: 40%">
+
+<iframe src="https://drc-cs-9a3f6.web.app/?label=L.06 | Q.02" width="100%" height="100%" style="border-radius: 10px"></iframe>
+
+</div>
+</div>
+
 
 <!--s-->
 
