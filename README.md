@@ -135,9 +135,9 @@ If you are feeling distressed or overwhelmed, please reach out for help. Student
 ## Contact Information
 
 **Peer Mentors**:
-- Sai Chakradhar Induvasi: wvg6368@ads.northwestern.edu
-- Shreya Singh: wku8357@ads.northwestern.edu
-- Nathan Mo: nmf0887@ads.northwestern.edu
+- Sai Chakradhar Induvasi: SaiInduvasi2025@u.northwestern.edu
+- Shreya Singh: ShreyaSingh@u.northwestern.edu
+- Nathan Mo: nathanmo2026@u.northwestern.edu
 - Ishan Mukherjee: ishanmukherjee2027@u.northwestern.edu
 - Shubhi Gupta: ShubhiGupta2025@u.northwestern.edu
 
