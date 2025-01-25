@@ -279,6 +279,7 @@ def perform_hypothesis_test(x: np.array, y: np.array) -> tuple[float, float]:
 
     # print(scipy.stats.mannwhitneyu(x, y))
     statistic, p_val = scipy.stats.ttest_ind(x, y)
+    # print(p_val)
     return (statistic, p_val)
     
     
