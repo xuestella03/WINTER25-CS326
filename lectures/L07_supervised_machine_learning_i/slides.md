@@ -412,7 +412,7 @@ Similar to linear regression -- if we want to include a bias term, we can add a 
 
 <!--s-->
 
-## L.07 | Q.01
+## L.07 | Q.02
 
 <div class = "col-wrapper">
 <div class="c1" style = "width: 50%">
@@ -457,7 +457,7 @@ array([[0.3361201, 0.6638799]])
 
 <!--s-->
 
-## L.07 | Q.02
+## L.07 | Q.03
 
 <div class = "col-wrapper">
 <div class="c1" style = "width: 50%">
