@@ -297,6 +297,29 @@ $$ J(\beta) = J(\beta) + \lambda \sum_{j=1}^n \beta_j^2 $$
 
 <!--s-->
 
+## L.07 | Q.01
+
+<div class = "col-wrapper">
+
+<div class="c1" style = "width: 50%">
+
+When is L2 regularization (Ridge) preferred over L1 regularization (Lasso)?
+
+A. When all features are assumed to be relevant.
+B. When some features are assumed to be irrelevant.
+
+</div>
+
+<div class="c2" style = "width: 50%">
+
+<iframe src="https://drc-cs-9a3f6.web.app/?label=L.07 | Q.01" width="100%" height="100%" style="border-radius: 10px;"></iframe>
+
+</div>
+
+</div>
+
+<!--s-->
+
 <div class="header-slide">
 
 # Logistic Regression
@@ -330,7 +353,7 @@ Note that $\sigma(z)$ is the probability that the dependent variable is 1 given 
 
 $$ \widehat{y} = X\beta $$
 
-The key difference is that the output of logistic regression is passed through the sigmoid function to obtain a value between 0 and 1, which can be interpreted as a probability. This works because the sigmoid function maps any real number to the range [0, 1]. While linear regression predicts the value of the dependent variable, logistic regression predicts the probability that the dependent variable is 1.
+The key difference is that the output of logistic regression is passed through the sigmoid function to obtain a value between 0 and 1, which can be interpreted as a probability. This works because the sigmoid function maps any real number to the range [0, 1]. While linear regression predicts the value of the dependent variable, logistic regression predicts the probability that the dependent variable is 1. 
 
 <!--s-->
 
@@ -404,7 +427,7 @@ What do you do next?
 </div>
 <div class="c2" style = "width: 50%">
 
-<iframe src="https://drc-cs-9a3f6.web.app/?label=L.07 | Q.01" width="100%" height="100%" style="border-radius: 10px;"></iframe>
+<iframe src="https://drc-cs-9a3f6.web.app/?label=L.07 | Q.02" width="100%" height="100%" style="border-radius: 10px;"></iframe>
 
 </div>
 </div>
@@ -449,7 +472,7 @@ array([[0.3361201, 0.6638799]])
 
 </div>
 <div class="c2" style = "width: 50%">
-<iframe src="https://drc-cs-9a3f6.web.app/?label=L.07 | Q.02" width="100%" height="100%" style="border-radius: 10px;"></iframe>
+<iframe src="https://drc-cs-9a3f6.web.app/?label=L.07 | Q.03" width="100%" height="100%" style="border-radius: 10px;"></iframe>
 </div>
 </div>
 
