@@ -305,7 +305,7 @@ $$ J(\beta) = J(\beta) + \lambda \sum_{j=1}^n \beta_j^2 $$
 
 When is L2 regularization (Ridge) preferred over L1 regularization (Lasso)?
 
-A. When all features are assumed to be relevant.
+A. When all features are assumed to be relevant.<br>
 B. When some features are assumed to be irrelevant.
 
 </div>
