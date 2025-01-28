@@ -179,7 +179,7 @@ X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.5, r
 
 <!--s-->
 
-## Context
+## Why Split on Groups?
 
 Imagine we're working with a medical dataset aimed at predicting the likelihood of a patient having a particular disease based on various features, such as age, blood pressure, cholesterol levels, etc.
 
@@ -195,7 +195,7 @@ Imagine we're working with a medical dataset aimed at predicting the likelihood 
 
 <!--s-->
 
-## Incorrect Splitting:
+## Incorrect Splitting
 
 - **Training Set:**
   - Patient A, Visit 1
@@ -205,11 +205,11 @@ Imagine we're working with a medical dataset aimed at predicting the likelihood 
   - Patient A, Visit 2
   - Patient B, Visit 2
 
-In this scenario, the model could learn specific patterns from Patient A and Patient B in the training set and then simply recall them in the testing set. Since it has already seen data from these patients, even with slightly different features, **it may perform well without actually generalizing to unseen patients.**
+In this splitting scenario, the model could learn specific patterns from Patient A and Patient B in the training set and then simply recall them in the testing set. Since it has already seen data from these patients, even with slightly different features, **it may perform well without actually generalizing to unseen patients**.
 
 <!--s-->
 
-## Correct Splitting:
+## Correct Splitting
 
 - **Training Set:**
   - Patient A, Visit 1
@@ -223,7 +223,7 @@ In these cases, the model does not have prior exposure to the patients in the te
 
 <!--s-->
 
-## Key Takeaways
+## Key Takeaways for Group-Based Splitting
 
 - **Independence:** Keeping data separate between training and testing sets maintains the independence necessary for unbiased model evaluation.
 
