@@ -179,6 +179,58 @@ X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.5, r
 
 <!--s-->
 
+## Context
+
+Imagine we're working with a medical dataset aimed at predicting the likelihood of a patient having a particular disease based on various features, such as age, blood pressure, cholesterol levels, etc.
+
+### Dataset
+
+- **Patient A:** 
+  - Visit 1: Age 50, Blood Pressure 130/85, Cholesterol 210
+  - Visit 2: Age 51, Blood Pressure 135/88, Cholesterol 215
+
+- **Patient B:**
+  - Visit 1: Age 60, Blood Pressure 140/90, Cholesterol 225
+  - Visit 2: Age 61, Blood Pressure 145/92, Cholesterol 230
+
+<!--s-->
+
+## Incorrect Splitting:
+
+- **Training Set:**
+  - Patient A, Visit 1
+  - Patient B, Visit 1
+
+- **Testing Set:**
+  - Patient A, Visit 2
+  - Patient B, Visit 2
+
+In this scenario, the model could learn specific patterns from Patient A and Patient B in the training set and then simply recall them in the testing set. Since it has already seen data from these patients, even with slightly different features, **it may perform well without actually generalizing to unseen patients.**
+
+<!--s-->
+
+## Correct Splitting:
+
+- **Training Set:**
+  - Patient A, Visit 1
+  - Patient A, Visit 2
+
+- **Testing Set:**
+  - Patient B, Visit 1
+  - Patient B, Visit 2
+
+In these cases, the model does not have prior exposure to the patients in the testing set, ensuring an unbiased evaluation of its performance. It will need to apply its learning to truly "new" data, similar to real-world scenarios where new patients must be diagnosed based on features the model has learned from different patients.
+
+<!--s-->
+
+## Key Takeaways
+
+- **Independence:** Keeping data separate between training and testing sets maintains the independence necessary for unbiased model evaluation.
+
+- **Generalization:** This approach ensures that the model can generalize its learning from one set of data to another, which is crucial for effective predictions.
+
+<!--s-->
+
 <div class="header-slide">
 
 # Linear Regression
