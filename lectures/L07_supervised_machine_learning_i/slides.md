@@ -34,7 +34,7 @@ revealOptions:
   </div>
   </div>
   <div class="c2" style="width: 50%; height: auto;">
-  <iframe src="https://drc-cs-9a3f6.web.app/?label=Enter Code" width="100%" height="100%" style="border-radius: 10px;"></iframe>
+  <iframe src="https://drc-cs-9a3f6.firebaseapp.com/?label=Enter Code" width="100%" height="100%" style="border-radius: 10px;"></iframe>
   </div>
 </div>
 
@@ -91,7 +91,7 @@ Before diving into today's content, let's revisit the data science pipeline we'v
   </div>
   </div>
   <div class="c2" style="width: 50%; height: 100%;">
-  <iframe src="https://drc-cs-9a3f6.web.app/?label=Intro Poll" width="100%" height="100%" style="border-radius: 10px"></iframe>
+  <iframe src="https://drc-cs-9a3f6.firebaseapp.com/?label=Intro Poll" width="100%" height="100%" style="border-radius: 10px"></iframe>
   </div>
 
 </div>
@@ -312,7 +312,7 @@ B. When some features are assumed to be irrelevant.
 
 <div class="c2" style = "width: 50%">
 
-<iframe src="https://drc-cs-9a3f6.web.app/?label=L.07 | Q.01" width="100%" height="100%" style="border-radius: 10px;"></iframe>
+<iframe src="https://drc-cs-9a3f6.firebaseapp.com/?label=L.07 | Q.01" width="100%" height="100%" style="border-radius: 10px;"></iframe>
 
 </div>
 
@@ -427,7 +427,7 @@ What do you do next?
 </div>
 <div class="c2" style = "width: 50%">
 
-<iframe src="https://drc-cs-9a3f6.web.app/?label=L.07 | Q.02" width="100%" height="100%" style="border-radius: 10px;"></iframe>
+<iframe src="https://drc-cs-9a3f6.firebaseapp.com/?label=L.07 | Q.02" width="100%" height="100%" style="border-radius: 10px;"></iframe>
 
 </div>
 </div>
@@ -472,7 +472,7 @@ array([[0.3361201, 0.6638799]])
 
 </div>
 <div class="c2" style = "width: 50%">
-<iframe src="https://drc-cs-9a3f6.web.app/?label=L.07 | Q.03" width="100%" height="100%" style="border-radius: 10px;"></iframe>
+<iframe src="https://drc-cs-9a3f6.firebaseapp.com/?label=L.07 | Q.03" width="100%" height="100%" style="border-radius: 10px;"></iframe>
 </div>
 </div>
 
@@ -636,7 +636,7 @@ To evaluate a binary classification model like this, we can use metrics such as 
   </div>
   </div>
   <div class="c2" style="width: 50%; height: 100%;">
-  <iframe src="https://drc-cs-9a3f6.web.app/?label=Exit Poll" width="100%" height="100%" style="border-radius: 10px"></iframe>
+  <iframe src="https://drc-cs-9a3f6.firebaseapp.com/?label=Exit Poll" width="100%" height="100%" style="border-radius: 10px"></iframe>
   </div>
 
 </div>
