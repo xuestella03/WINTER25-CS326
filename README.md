@@ -21,7 +21,7 @@ This schedule is tentative and may change as the course progresses.
 | 7 | 01.28.2025 | [Supervised Machine Learning I <br> *KNN / Linear & Logistic Regression*](https://drc-cs.github.io/WINTER25-CS326/lectures/L07_supervised_machine_learning_i/#/) | [H.02](https://canvas.northwestern.edu/courses/226962/assignments/1508086) |
 | 8 | 01.30.2025 | [Supervised Machine Learning II <br>  *ROC-AUC / K-Fold / Multi-Class* <br>](https://drc-cs.github.io/WINTER25-CS326/lectures/L08_supervised_machine_learning_ii/#/) | |
 | 9 | 02.04.2025 | Supervised Machine Learning III <br>  *Decision Trees / Ensemble Models*| |
-| 12 | 02.06.2025 | Bonus Lecture TBD | H.03 |
+| 12 | 02.06.2025 | Bonus Lecture: Docker Containers | [H.03](https://canvas.northwestern.edu/courses/226962/assignments/1508088) |
 | 10 | 02.11.2025 | Exam Part I | |
 | 11 | 02.13.2025 | Dimensionality Reduction | |
 | 13 | 02.18.2025 | Clustering Algorithms | |
