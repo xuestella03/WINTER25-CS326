@@ -344,7 +344,7 @@ Let's say we have a dataset of movie genres. We want to predict the genre(s) of 
 
 ## L.08 | Q.03
 
-Let's say we have a dataset of movie genres. We know that a movie can only one genre, but there are many to choose from. Should we use multi-class or multi-label classification?
+Let's say we have a dataset of movie genres. We know that a movie can have only one genre, but there are many to choose from. Should we use multi-class or multi-label classification?
 
 <div class='col-wrapper' style = 'display: flex; align-items: top; margin-top: 2em; margin-left: -1em;'>
 <div class='c1' style = 'width: 60%; display: flex; align-items: center; flex-direction: column; margin-top: 2em'>
