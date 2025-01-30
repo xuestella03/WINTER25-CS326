@@ -47,7 +47,9 @@ revealOptions:
 - Exam Part I will be on 02.11.2025.
   - The exam will cover all material up to and including L.09.
   - Multiple choice (\~24) and free response (\~6) questions.
-  - In person and closed book.
+  - In person
+  - Closed book.
+  - If you have accomodations through AccessibleNU, I will send an email with instructions by early next week.
 
 <!--s-->
 
@@ -295,16 +297,16 @@ There are several approaches to multi-label classification:
 <div class="c1" style = "width: 50%">
 
 ### Binary Relevance
-Train a separate binary classifier for each label -- one classifier for each genre of a movie.
+Train a separate binary classifier for each label -- e.g. one classifier for each genre of a movie.
 
 ### Classifier Chains
-Train a chain of binary classifiers, where each classifier predicts the next label -- predict the next genre of a movie based on the previous genre.
+Train a chain of binary classifiers, where each classifier predicts the next label -- e.g. predict the next genre of a movie based on the previous genre.
 
 </div>
 <div class="c2" style = "width: 50%">
 
 ### Label Powerset
-Treat each unique label combination as a single class -- treat the combination of genres as a single class.
+Treat each unique label combination as a single class -- e.g. treat the combination of genres as a single class.
 
 
 </div>
