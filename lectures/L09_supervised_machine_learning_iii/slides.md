@@ -44,11 +44,10 @@ revealOptions:
 
 - H.03 due on Thursday, 02.06.2025 at 11:59 PM.
 
-- Exam Part I will be on 02.11.2025.
+- Exam Part I will be on 02.11.2025 at 11:00 AM.
   - The exam will cover all material up to and including L.09.
-  - Multiple choice and free response questions. Currently 39 questions.
-  - In person
-  - Closed book.
+  - Multiple choice and free response questions (~40 total).
+  - LockDown Browser required. There will be a **graded** practice exam due before the exam.
 
 <!--s-->
 
