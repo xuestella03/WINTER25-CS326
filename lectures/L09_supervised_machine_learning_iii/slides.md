@@ -46,7 +46,7 @@ revealOptions:
 
 - Exam Part I will be on 02.11.2025.
   - The exam will cover all material up to and including L.09.
-  - Multiple choice (\~24) and free response (\~6) questions.
+  - Multiple choice and free response questions. Currently 39 questions.
   - In person
   - Closed book.
 
