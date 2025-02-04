@@ -252,7 +252,7 @@ Where:
 
 <!--s-->
 
-## Question | Decision Tree 
+## L.09 | Q.01
 
 Which of the following decision tree algorithms is a reasonable choice for continuous data?
 
@@ -264,7 +264,7 @@ Which of the following decision tree algorithms is a reasonable choice for conti
 </div>
 </div>
 <div class='c2' style = 'width: 40%; display: flex; align-items: center; flex-direction: column;'>
-<iframe src="https://drc-cs-9a3f6.firebaseapp.com/?label=Exit Poll" width="100%" height="100%" style="border-radius: 10px"></iframe>
+<iframe src="https://drc-cs-9a3f6.firebaseapp.com/?label=L.09 | Q.01" width="100%" height="100%" style="border-radius: 10px"></iframe>
 </div>
 </div>
 
@@ -388,7 +388,7 @@ Stacking is often trained end-to-end, where the base models and meta-learner are
 
 <!--s-->
 
-## Question | Ensemble Models
+## L.09 | Q.02
 
 Let's say that you train a sequence of models that learn from the mistakes of the predecessors. Instead of focusing on the misclassified instances (and weighting them more highly), you focus on improving the residuals. What algorithm is this most similar to?
 
@@ -402,7 +402,7 @@ D. Stacking
 </div>
 </div>
 <div class='c2' style = 'width: 40%;'>
-<iframe src="https://drc-cs-9a3f6.firebaseapp.com/?label=Exit Poll" width="100%" height="100%" style="border-radius: 10px"></iframe>
+<iframe src="https://drc-cs-9a3f6.firebaseapp.com/?label=L.09 | Q.02" width="100%" height="100%" style="border-radius: 10px"></iframe>
 </div>
 </div>
 <!--s-->
