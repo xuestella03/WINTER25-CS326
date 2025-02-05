@@ -161,10 +161,17 @@ def linear_regression(X: np.array, y: np.array) -> np.array:
     """
 
     # 1. Concatenate the bias term to X using np.hstack.
+    col = np.ones((X.shape[0], 1))
+    new_arr = np.hstack((col, X))
 
     # 2. Calculate the weights using the normal equation.
+    transpose = np.transpose(new_arr)
+    first_term = np.linalg.inv(np.dot(transpose, new_arr))
+    second_term = np.dot(transpose, y)
 
-    raise NotImplementedError("Please implement the linear_regression function.")
+    return np.dot(first_term, second_term)
+
+    
 
 def linear_regression_predict(X: np.array, weights: np.array) -> np.array:
     """Predict the dependent variables using the weights and independent variables.
@@ -180,10 +187,12 @@ def linear_regression_predict(X: np.array, weights: np.array) -> np.array:
         np.array: The predicted dependent variables.
     """
     # 1. Concatenate the bias term to X using np.hstack.
+    col = np.ones((X.shape[0], 1))
+    new_arr = np.hstack((col, X))
     
     # 2. Calculate the predictions.
     
-    raise NotImplementedError("Please implement the linear_regression_predict function.")
+    return np.dot(new_arr, weights)
     
 
 def mean_squared_error(y_true: np.array, y_pred: np.array) -> float:
@@ -198,7 +207,7 @@ def mean_squared_error(y_true: np.array, y_pred: np.array) -> float:
     Returns:
         float: The mean squared error.
     """
-    raise NotImplementedError("Please implement the mean_squared_error function.")
+    return (sum((y_true-y_pred) ** 2)) / y_true.shape[0]
 
 def sigmoid(z: np.array) -> np.array:
     """Calculate the sigmoid function.
