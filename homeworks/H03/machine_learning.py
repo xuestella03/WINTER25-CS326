@@ -85,7 +85,7 @@ def euclidean_distance(x1: np.array, x2: np.array) -> float:
     Returns:
         float: The Euclidean distance between the two points.
     """
-    raise NotImplementedError("Please implement the euclidean_distance function.")
+    return np.sqrt(np.sum((x1-x2) ** 2))
 
 
 def cosine_distance(x1: np.array, x2: np.array) -> float:
@@ -98,7 +98,14 @@ def cosine_distance(x1: np.array, x2: np.array) -> float:
     Returns:
         float: The cosine distance between the two points.
     """
-    raise NotImplementedError("Please implement the cosine_distance function.")
+    dot_prod = np.dot(x1, x2)
+    norm_1 = np.linalg.norm(x1)
+    norm_2 = np.linalg.norm(x2)
+
+    if norm_1 == 0 or norm_2 == 0:
+        return 1.0
+    
+    return 1 - (dot_prod / (norm_1 * norm_2))
     
 def knn(x: np.array, y: np.array, 
         sample: np.array, distance_method: Callable, k: int) -> int:
@@ -125,13 +132,17 @@ def knn(x: np.array, y: np.array,
         
         # 2. Append the (distance, label) tuple to the distances list.
 
-        raise NotImplementedError("Please implement the knn function distance loop.")
+        distances.append((distance_method(x_i, sample), y_i))
 
     # 3. Sort the tuples by distance (the first element of each tuple in distances).
+    distances.sort(key=lambda x:x[0])
 
     # 4. Get the unique labels and their counts. HINT: np.unique has a return_counts parameter.
+    k_nearest = [label for __, label in distances[:k]]
+    unique_labels, counts = np.unique(k_nearest, return_counts=True)
 
     # 5. Return the label with the most counts.
+    return unique_labels[np.argmax(counts)]
     
 
 def linear_regression(X: np.array, y: np.array) -> np.array:
