@@ -14,7 +14,8 @@ def binarize(labels: list[str]) -> np.array:
     Returns:
         np.array: The binarized labels.
     """
-    raise NotImplementedError("Please implement the binarize function.")
+    labels_arr = np.array(labels)
+    return np.where(labels_arr == "Chinstrap", 1, 0)
 
 def split_data(X: np.array, y: np.array, test_size: float=0.2, 
                 random_state: float = 42, shuffle: bool = True) -> Tuple[np.array, np.array, np.array, np.array]:
@@ -34,8 +35,8 @@ def split_data(X: np.array, y: np.array, test_size: float=0.2,
         shuffle (bool): Whether or not to shuffle the data before splitting.
 
     """
-
-    raise NotImplementedError("Please implement the split_data function.")
+    # print(train_test_split(X,y))
+    return train_test_split(X,y)
 
 def standardize(X_train: np.array, X_test: np.array) -> Tuple[np.array, np.array]:
     """Standardize the training and testing data.
@@ -62,7 +63,16 @@ def standardize(X_train: np.array, X_test: np.array) -> Tuple[np.array, np.array
     Returns:
         Tuple[np.array, np.array]: The standardized training and testing data.
     """
-    raise NotImplementedError("Please implement the standardize function.")
+    # standardize for feature. So calculate and return mean for the features
+    means = np.mean(X_train, axis=0)
+    standard_devs = np.std(X_train, axis=0)
+    # print(means)
+    # print(standard_devs)
+    standard_training_set = (X_train - means) / standard_devs
+    standard_test_set = (X_test - means) / standard_devs
+    # print(standard_training_set, standard_test_set)
+    return standard_training_set, standard_test_set
+    
 
 
 def euclidean_distance(x1: np.array, x2: np.array) -> float:
