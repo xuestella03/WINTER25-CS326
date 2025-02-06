@@ -198,10 +198,10 @@ You're building a model to predict the price of a house based on its location, s
 <div class="c1" style = "width: 60%;">
 
 <div style = "line-height: 2em;">
-&emsp;&emsp;**A. Bulk Downloads** <br>
-&emsp;&emsp;B. APIs <br>
-&emsp;&emsp;C. Scraping, web crawling <br>
-&emsp;&emsp;D. BYOD (Bring Your Own Data) <br>
+&emsp; **A. Bulk Downloads** <br>
+&emsp; B. APIs <br>
+&emsp; C. Scraping, web crawling <br>
+&emsp; D. BYOD (Bring Your Own Data) <br>
 </div>
 </div>
 
@@ -222,10 +222,10 @@ You just built an amazing stock market forecasting model. Congrats! Now, you wan
 <div class="c1" style = "width: 60%;">
 
 <div style = "line-height: 2em;">
-&emsp;&emsp;A. Bulk Downloads <br>
-&emsp;&emsp;**B. APIs** <br>
-&emsp;&emsp;C. Scraping, web crawling <br>
-&emsp;&emsp;D. BYOD (Bring Your Own Data) <br>
+&emsp; A. Bulk Downloads <br>
+&emsp; **B. APIs** <br>
+&emsp; C. Scraping, web crawling <br>
+&emsp; D. BYOD (Bring Your Own Data) <br>
 </div>
 
 </div>
