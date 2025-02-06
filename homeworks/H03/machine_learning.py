@@ -297,4 +297,5 @@ def logistic_regression_predict(X: np.array, weights: np.array) -> np.array:
 
     probabilities = sigmoid(np.dot(new_arr, weights))
 
-    return (probabilities >= 0.5).astype(int)
+    # return (probabilities >= 0.5).astype(int)
+    return probabilities
