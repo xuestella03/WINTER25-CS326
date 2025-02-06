@@ -197,7 +197,7 @@ A.
 median = sorted(data)[len(data) // 2]
 ```
 
-B. 
+**B. **
 
 ```python
 median = sorted(data)[len(data) // 2 - 1]

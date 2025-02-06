@@ -357,7 +357,7 @@ $$ J(\beta) = J(\beta) + \lambda \sum_{j=1}^n \beta_j^2 $$
 
 When is L2 regularization (Ridge) preferred over L1 regularization (Lasso)?
 
-A. When all features are assumed to be relevant.<br>
+**A. When all features are assumed to be relevant.**<br>
 B. When some features are assumed to be irrelevant.
 
 </div>
@@ -475,6 +475,7 @@ Okay, so let's walk through an example. Suppose you have already done the follow
 2. Calculated the gradient $ \frac{\partial J}{\partial \beta} $.
 
 What do you do next?
+
 
 </div>
 <div class="c2" style = "width: 50%">
