@@ -259,7 +259,7 @@ Which of the following decision tree algorithms is a reasonable choice for conti
 <div class='c1' style = 'width: 60%; display: flex; align-items: center; flex-direction: column; margin-top: 2em'>
 <div style = 'line-height: 2em;'>
 &emsp;A. ID3 <br>
-&emsp;B. C4.5 <br>
+&emsp;**B. C4.5 **<br>
 </div>
 </div>
 <div class='c2' style = 'width: 40%; display: flex; align-items: center; flex-direction: column;'>
@@ -396,7 +396,7 @@ Let's say that you train a sequence of models that learn from the mistakes of th
 <div style = 'line-height: 2em;'>
 A. Bagging (e.g. Random Forest) <br>
 B. Boosting (e.g. Adaboost) <br>
-C. Boosting (e.g. Gradient Boosting) <br>
+C. **Boosting (e.g. Gradient Boosting)** <br>
 D. Stacking
 </div>
 </div>
