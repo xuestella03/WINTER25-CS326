@@ -218,7 +218,9 @@ def sigmoid(z: np.array) -> np.array:
     Returns:
         np.array: The output of the sigmoid function.
     """
-    raise NotImplementedError("Please implement the sigmoid function.")
+    # sigma (z) = 1 / (1+e^{-z}) where z = X\beta.
+    denominator = 1 + np.exp(-z)
+    return 1/denominator
 
 def logistic_regression_gradient_descent(X: np.array, y: np.array, 
                                          learning_rate: float = 0.01, 
@@ -252,20 +254,25 @@ def logistic_regression_gradient_descent(X: np.array, y: np.array,
         np.array: The weights for the logistic regression model.
     """
     # 1. Concatenate the bias term to X using np.hstack.
+    col = np.ones((X.shape[0], 1))
+    new_arr = np.hstack((col, X))
 
     # 2. Initialize the weights with zeros. np.zeros is your friend here! 
-    weights = np.zeros(X.shape[1])
+    weights = np.zeros(new_arr.shape[1])
 
     # For each iteration, update the weights.
     for _ in range(num_iterations):
 
-        # 3. Calculate the predictions.
+        # 3. Calculate the predictions. h_theta(X)
+        predictions = sigmoid(np.dot(new_arr, weights))
 
-        # 4. Calculate the gradient.
+        # 4. Calculate the gradient. X^T*(h+theta(X)-y)/m
+        gradient = np.dot(new_arr.T, (predictions - y)) / X.shape[0]
     
         # 5. Update the weights -- make sure to use the learning rate!
+        weights -= learning_rate * gradient
 
-        raise NotImplementedError("Please implement the logistic_regression_gradient_descent function.")
+    return weights
 
 
 def logistic_regression_predict(X: np.array, weights: np.array) -> np.array:
@@ -283,7 +290,11 @@ def logistic_regression_predict(X: np.array, weights: np.array) -> np.array:
         np.array: The predicted labels.
     """
     # 1. Add the bias term using np.hstack.
+    col = np.ones((X.shape[0], 1))
+    new_arr = np.hstack((col, X))
 
     # 2. Calculate the predictions using the provided weights.
 
-    raise NotImplementedError("Please implement the logistic_regression_predict function.")
+    probabilities = sigmoid(np.dot(new_arr, weights))
+
+    return (probabilities >= 0.5).astype(int)
