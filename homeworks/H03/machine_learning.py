@@ -36,7 +36,7 @@ def split_data(X: np.array, y: np.array, test_size: float=0.2,
 
     """
     # print(train_test_split(X,y))
-    return train_test_split(X,y)
+    return train_test_split(X,y, test_size=0.2, random_state=42, shuffle=True)
 
 def standardize(X_train: np.array, X_test: np.array) -> Tuple[np.array, np.array]:
     """Standardize the training and testing data.
