@@ -599,7 +599,7 @@ Given the following data points (X) and their corresponding labels (y), what is 
 <div class = "col-wrapper">
 <div class="c1 col-centered" style = "width: 50%">
 
-<p style="margin-left: -10em;">A. 0<br><br>B. 1</p>
+<p style="margin-left: -10em;">A. 0<br><br>**B. 1**</p>
 
 </div>
 <div class="c2" style = "width: 50%">
