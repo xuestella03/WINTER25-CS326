@@ -28,7 +28,7 @@ revealOptions:
 
 # Exam Password
 
-<span class = 'code-span'>W2025CS326</span>
+<span class = 'code-span' style ='font-size: 4em;'>W2025CS326</span>
 
 </div>
 
