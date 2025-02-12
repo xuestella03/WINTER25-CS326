@@ -78,7 +78,7 @@ Lectures will be broken down into theory and applications.
 
 ## Attendance
 
-Attendance is mandatory for CS 326 and is worth 10% of your final grade. Most lectures will have interactive quizzes throughout the lecture that will be graded for completion. The top 16 quiz scores will be used to calculate your attendance grade, leaving you with 4 freebies throughout the quarter.
+Attendance is mandatory for CS 326 and is worth 10% of your final grade. Most lectures will have interactive quizzes throughout the lecture that will be graded for completion. You have 4 free absences throughout the quarter.
 
 ------
 

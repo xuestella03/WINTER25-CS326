@@ -44,11 +44,11 @@ revealOptions:
 
 - H.04 will be released on Tuesday.
 
-- Updates to schedule.
-
 - Exam Part I grades will be released on Friday.
 
 - Participation grades are reported as number of missed classes.
+
+- Updates to schedule.
 
 <!--s-->
 
