@@ -267,7 +267,7 @@ K-Means is a simple and efficient algorithm, but it has some limitations:
 - The algorithm is sensitive to the initial cluster centroids.
 - The algorithm may converge to a local minimum.
 
-There are variations of K-Means that help address limitations (e.g., K-Means++, MiniBatch K-Means).
+There are variations of K-Means that help address limitations (e.g., K-Means++).
 
 Specifying the number of clusters $k$ is a common challenge in clustering, but there are techniques to estimate an optimal $k$, such as the **elbow method** and the **silhouette score**. Neither of these techniques is perfect, but they can be informative under the right conditions.
 
