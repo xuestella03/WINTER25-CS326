@@ -25,8 +25,8 @@ This schedule is tentative and may change as the course progresses.
 | 11 | 02.11.2025 | Exam Part I | |
 | 12 | 02.13.2025 | [Clustering Algorithms](https://drc-cs.github.io/WINTER25-CS326/lectures/L10_clustering/#/) | |
 | 13 | 02.18.2025 | Recommendation Modeling | |
-| 14 | 02.20.2025 | Time Series Analysis | H.04 |
-| 15 | 02.25.2025 | Natural Language Processing <br> *Classical NLP* | |
+| 14 | 02.20.2025 | Time Series Analysis | |
+| 15 | 02.25.2025 | Natural Language Processing <br> *Classical NLP* | H.04 |
 | 16 | 02.27.2025 | Natural Language Processing <br> *Modern NLP* | |
 | 17 | 03.04.2025 | Online Analytical Processing | |
 | 18 | 03.06.2025 | Storytelling and Ethics | H.05 |
