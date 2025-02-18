@@ -531,7 +531,7 @@ Recommendation systems are a powerful tool for personalizing user experiences an
   </div>
   </div>
   <div class="c2" style="width: 50%; height: 100%;">
-  <iframe src="https://drc-cs-9a3f6.firebaseapp.com/?label=Intro Poll" width="100%" height="100%" style="border-radius: 10px"></iframe>
+  <iframe src="https://drc-cs-9a3f6.firebaseapp.com/?label=Exit Poll" width="100%" height="100%" style="border-radius: 10px"></iframe>
   </div>
 
 </div>
