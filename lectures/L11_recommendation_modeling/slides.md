@@ -41,7 +41,10 @@ revealOptions:
 
 ## Announcements
 
-- 
+- Exam Part I Scores have been released! With the extra credit + pre-quiz, the average score was ~87%. 🎉
+
+- H.04 will be released today.
+  - Due on Monday, 02.25.2025. 
 
 <!--s-->
 
@@ -381,7 +384,7 @@ In the example below, the scale is from 1-5. The mean of the scale is 3. So, we 
 <div class = "col-wrapper">
 <div class="c1" style = "width: 50%">
 
-### Sparse
+### Missing Values
 
 |  | I.1 | I.2 | I.3 |
 | --- | --- | --- | --- |
@@ -392,7 +395,7 @@ In the example below, the scale is from 1-5. The mean of the scale is 3. So, we 
 </div>
 <div class="c2" style = "width: 50%">
 
-### Dense
+### Filled Values
 
 |   | I.1 | I.2 | I.3 |
 | --- | --- | --- | --- |
