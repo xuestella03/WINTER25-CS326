@@ -287,7 +287,7 @@ def logistic_regression_predict(X: np.array, weights: np.array) -> np.array:
             should include the bias term.
     
     Returns:
-        np.array: The predicted labels.
+        np.array: The output of logistic regression.
     """
     # 1. Add the bias term using np.hstack.
     col = np.ones((X.shape[0], 1))

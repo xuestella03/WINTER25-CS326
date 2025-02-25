@@ -109,7 +109,7 @@ I have a binary classifier that predicts whether or not a credit card transactio
 <div class='col-wrapper' style = 'display: flex; align-items: top; margin-top: 2em; margin-left: -1em;'>
 <div class='c1' style = 'width: 60%; display: flex; align-items: center; flex-direction: column; margin-top: 2em'>
 <div style = 'line-height: 2em;'>
-  &emsp;A. The classifier is worse than random. <br>
+  &emsp;**A. The classifier is worse than random.** <br>
   &emsp;B. The classifier is random. <br>
   &emsp;C. The classifier is better than random. <br>
 </div>
@@ -332,7 +332,7 @@ Let's say we have a dataset of movie genres. We want to predict the genre(s) of 
 <div class='c1' style = 'width: 60%; display: flex; align-items: center; flex-direction: column; margin-top: 2em'>
 <div style = 'line-height: 2em;'>
 &emsp;A. Multi-Class <br>
-&emsp;B. Multi-Label <br>
+&emsp;**B. Multi-Label** <br>
 </div>
 </div>
 <div class='c2' style = 'width: 40%; display: flex; align-items: center; flex-direction: column;'>
@@ -349,7 +349,7 @@ Let's say we have a dataset of movie genres. We know that a movie can have only 
 <div class='col-wrapper' style = 'display: flex; align-items: top; margin-top: 2em; margin-left: -1em;'>
 <div class='c1' style = 'width: 60%; display: flex; align-items: center; flex-direction: column; margin-top: 2em'>
 <div style = 'line-height: 2em;'>
-&emsp;A. Multi-Class <br>
+&emsp;**A. Multi-Class** <br>
 &emsp;B. Multi-Label <br>
 </div>
 </div>
