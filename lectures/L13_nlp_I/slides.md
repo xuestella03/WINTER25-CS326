@@ -36,7 +36,7 @@ revealOptions:
     <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
 
 # Intro Poll
-## On a scale of 1-5, how confident are you with the **time series** methods such as:
+## On a scale of 1-5, how confident are you with **time series** methods such as:
 
 - Regular Expressions
 - Tokenization
@@ -159,40 +159,31 @@ This regular expression will match any phone number in the format (810)555-1234,
 
 Regular expressions are a sequence of characters that define a search pattern. They are used to search, match, and manipulate text strings.
 
-<div class="col-wrapper" style="font-size: 0.7em;">
-
-<div class="c1" style="width: 50%; margin: 0; padding: 0;">
-
-- **Literals**: Characters that match themselves.
-  - `a` matches the character "a".
-  - `123` matches the sequence "123".
-
-- **Metacharacters**: Special characters that represent a class of characters.
-  - `.` matches any character except a newline.
-  - `^` matches the start of a string.
-  - `$` matches the end of a string.
-
-- **Quantifiers**: Specify the number of occurrences of a character.
-  - `*` matches zero or more occurrences of the preceding character
-  - `+` matches one or more occurrences.
-  - `?` matches zero or one occurrence.
-
-</div>
-
-<div class="c2" style="width: 50%">
-
-- **Character Classes**: Define a set of characters to match.
-  - `[abc]` matches any character in the set.
-  - `[^abc]` matches any character not in the set.
-  - `[a-z]` matches any character in the range.
-  - `\d` matches any digit.
-  - `\w` matches any word character.
-  - `\s` matches any whitespace character.
-
-- **Groups**: Define a group of characters to match.
-  - `(abc)` matches the sequence "abc".
-  - `(a|b)` matches "a" or "b".
-  - `(?:abc)` matches "abc" but does not capture it.
+<div style="font-size: 0.8em; overflow-y: scroll; height: 80%;">
+  
+| Pattern | Description |
+|---------|-------------|
+| <span class='code-span'>.</span>     | Matches any character except newline |
+| <span class='code-span'>^</span>     | Matches the start of a string |
+| <span class='code-span'>$</span>     | Matches the end of a string |
+| <span class='code-span'>*</span>     | Matches 0 or more repetitions of the preceding element |
+| <span class='code-span'>+</span>     | Matches 1 or more repetitions of the preceding element |
+| <span class='code-span'>?</span>     | Matches 0 or 1 repetition of the preceding element |
+| <span class='code-span'>{n}</span>   | Matches exactly n repetitions of the preceding element |
+| <span class='code-span'>{n,}</span>  | Matches n or more repetitions of the preceding element |
+| <span class='code-span'>{n,m}</span> | Matches between n and m repetitions of the preceding element |
+| <span class='code-span'>[]</span>    | Matches any one of the characters inside the brackets |
+| <span class='code-span'> \| </span>     | Matches either the expression before or the expression after the operator |
+| <span class='code-span'>()</span>    | Groups expressions and remembers the matched text |
+| <span class='code-span'>\d</span>    | Matches any digit (equivalent to <span class='code-span'>[0-9]</span>) |
+| <span class='code-span'>\D</span>    | Matches any non-digit character |
+| <span class='code-span'>\w</span>    | Matches any word character (equivalent to <span class='code-span'>[a-zA-Z0-9_]</span>) |
+| <span class='code-span'>\W</span>    | Matches any non-word character |
+| <span class='code-span'>\s</span>    | Matches any whitespace character (spaces, tabs, line breaks) |
+| <span class='code-span'>\S</span>    | Matches any non-whitespace character |
+| <span class='code-span'>\b</span>    | Matches a word boundary |
+| <span class='code-span'>\B</span>    | Matches a non-word boundary |
+| <span class='code-span'>\\</span>    | Escapes a special character |
 
 </div>
 
@@ -616,7 +607,7 @@ ROUGE focuses on recall (or the number of overlapping words) in summarization.
     <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
 
 # Exit Poll
-## On a scale of 1-5, how confident are you with the **time series** methods such as:
+## On a scale of 1-5, how confident are you with **time series** methods such as:
 
 - Regular Expressions
 - Tokenization
