@@ -31,6 +31,13 @@ revealOptions:
 
 <!--s-->
 
+## Announcements
+
+- H.04 is due **tonight** at 11:59PM
+
+
+<!--s-->
+
 <div class = "col-wrapper">
   <div class="c1 col-centered">
     <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
