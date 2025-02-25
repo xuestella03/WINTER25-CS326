@@ -12,7 +12,7 @@ revealOptions:
   <div style="font-size: 0.8em; left: 0; width: 70%; position: absolute;">
 
   # Introduction to Data Science Pipelines
-  ## L.15 Natural Language Processing I
+  ## L.13 Natural Language Processing I
 
   </div>
   </div>
@@ -25,7 +25,7 @@ revealOptions:
 
 <div class="header-slide">
 
-# L.15 Natural Language Processing I
+# L.13 Natural Language Processing I
 
 </div>
 
