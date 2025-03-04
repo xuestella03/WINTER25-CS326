@@ -568,7 +568,7 @@ Encoder-decoder models generate text by encoding the input text into a fixed-siz
 
 Encoder-only models encode the input text into a fixed-size vector. These models are powerful for text classification tasks but are not typically used for text generation.
 
-**Decoder-Only**: GPT-4, GPT-3, Gemini
+**Decoder-Only**: GPT-4, GPT-3, Gemini 
 
 Autoregressive models generate text one token at a time by conditioning on the previous tokens. Used in text generation, language modeling, and summarization.
 
