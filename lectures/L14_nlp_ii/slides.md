@@ -36,7 +36,7 @@ revealOptions:
     <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
 
   # Intro Poll
-  ## On a scale of 1-5, how confident are you with **time series** methods such as:
+  ## On a scale of 1-5, how confident are you with **R.A.G.** methods such as:
 
   1. Byte Pair Encoding (Tokenization)
   2. Document Chunking
@@ -711,7 +711,7 @@ Today we discussed Retrieval-Augmented Generation (RAG), a modern NLP approach t
   <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
 
   # Exit Poll
-  ## On a scale of 1-5, how confident are you with **time series** methods such as:
+  ## On a scale of 1-5, how confident are you with **R.A.G.** methods such as:
 
   1. Byte Pair Encoding (Tokenization)
   2. Document Chunking
