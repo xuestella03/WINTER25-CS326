@@ -35,8 +35,9 @@ revealOptions:
 
 - Exam Part II is scheduled for March 13.
   - If you have accommodations, please schedule time with AccessibleNU no later than **today**.
+  - Exam Part I median was 87.2 (82 - 92.5) with + 2 points. Exam Part II should have about the same median / IQR without adding the bonus points.
 
-- H.05 is due on **tuesday**, March 11.
+- H.05 is due on **tuesday**, March 11 @ 11:59PM.
 
 <!--s-->
 
@@ -61,7 +62,7 @@ revealOptions:
 </div>
 <div class="c2" style = "width: 50%; border-left: 1px solid black;">
 
-# **Part 3**: Industry Success
+# **Part 3**: Industry Tips
 
 - Effective Networking
 - Monetizing Your Curiosity
@@ -513,7 +514,7 @@ You can collect more data on houses with swimming pools to improve the accuracy 
 
 <div class = "header-slide">
 
-## Industry Success
+# Career Tips
 
 </div>
 

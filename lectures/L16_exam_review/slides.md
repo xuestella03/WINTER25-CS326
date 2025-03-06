@@ -41,9 +41,6 @@ revealOptions:
 1. [Download Lockdown Browser](https://download.respondus.com/lockdown/download7.php?id=171646780).
 2. Install the browser on your computer.
 3. Ensure that you can log in to your Northwestern University Canvas account using the browser.
-4. Take the [practice](https://canvas.northwestern.edu/courses/217294/quizzes/252735) quiz on Canvas to ensure that everything is working correctly.
-
-You will then be able to access the quiz on Canvas and take the quiz on your computer.
 
 **Note**: I have enabled the Monitoring feature for students that are unable to join us in-person, but I ask that everyone use it to ensure a fair testing environment.
 
@@ -61,7 +58,9 @@ You will then be able to access the quiz on Canvas and take the quiz on your com
 
 You will **not** be expected to do any programming on the exam. You will be asked to interpret code, identify errors, and explain concepts. The exam will be **closed book** and **closed notes**. You will not be allowed to use any resources during the exam. You will not need a calculator.
 
-The following topics will be covered on the exam -- they are not exhaustive but should give you a good idea of what to expect. As a reminder, I'm going for about a 30/70 split of Part I material and Part II material. 
+The following topics will likely be covered on the exam -- they are not exhaustive but should give you a good idea of what to expect. Anything talked about in lecture or on your homework is fair game. 
+
+You will be notified on Tuesday about the relative question split (Part I / Part II), after the exam is written.
 
 <!--s-->
 
@@ -226,6 +225,7 @@ The following topics will be covered on the exam -- they are not exhaustive but 
 # L.12 | Time Series
 
 [[slides]](https://drc-cs.github.io/WINTER25-CS326/lectures/L12_time_series/#/)
+[[homework]](https://github.com/drc-cs/WINTER25-CS326/tree/main/homeworks/H05)
 
 - Identify additive vs multiplicative decomposition in time series data.
 
