@@ -62,7 +62,7 @@ revealOptions:
 </div>
 <div class="c2" style = "width: 50%; border-left: 1px solid black;">
 
-# **Part 3**: Industry Tips
+# **Part 3**: Career Tips
 
 - Effective Networking
 - Monetizing Your Curiosity

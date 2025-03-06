@@ -30,7 +30,7 @@ This schedule is tentative and may change as the course progresses.
 | 16 | 02.27.2025 | --- | |
 | 17 | 03.04.2025 | [Natural Language Processing <br> *Modern NLP*](https://drc-cs.github.io/WINTER25-CS326/lectures/L14_nlp_ii/#/) | |
 | 18 | 03.06.2025 | [Storytelling and Ethics](https://drc-cs.github.io/WINTER25-CS326/lectures/L15_ethics/#/) | |
-| 19 | 03.11.2025 | Exam Part II Review | [H.05](https://canvas.northwestern.edu/courses/226962/assignments/1508092) |
+| 19 | 03.11.2025 | [Exam Part II Review](https://drc-cs.github.io/WINTER25-CS326/lectures/L16_exam_review/#/) | [H.05](https://canvas.northwestern.edu/courses/226962/assignments/1508092) |
 | 20 | 03.13.2025 | Exam Part II |  |
 
 ------
