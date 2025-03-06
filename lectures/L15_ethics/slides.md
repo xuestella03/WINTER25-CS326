@@ -35,7 +35,7 @@ revealOptions:
 
 - Exam Part II is scheduled for March 13.
   - If you have accommodations, please schedule time with AccessibleNU no later than **today**.
-  - Exam Part I median was 87.2 (82 - 92.5) with + 2 points. Exam Part II should have about the same median / IQR without adding the bonus points.
+  - Exam Part I median was 87.2 (82 - 92.5) with + 2 points.
 
 - H.05 is due on **tuesday**, March 11 @ 11:59PM.
 
