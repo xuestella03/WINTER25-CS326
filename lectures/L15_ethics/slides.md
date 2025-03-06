@@ -408,19 +408,11 @@ You can collect more data on houses with swimming pools to improve the accuracy 
 
 <div style="font-size: 0.8em;">
 
-**General Data Protection Regulation**: GDPR is a European Union regulation that protects the personal data of EU citizens and residents.
-
-**Fair Credit Reporting Act**: Provides data protection for the personal financial information collected by credit agencies.
-
-**The Privacy Act of 1974**: Prevents the federal government from making unauthorized disclosure of personal information under its control.
-
-**Computer Fraud and Abuse Act**: A federal anti-hacking statute that prohibits the unauthorized use of protected computers without prior authorization, including smartphones or other devices connected to the internet.
-
-**Children's Online Privacy Protection Act**: COPPA imposes requirements on online services directed at children under 13, as well as those that knowingly collect information from children under the age of 13. These entities must post their privacy policies, have an opt-out option, and provide certain parental controls.
-
-**Financial Monetization Act**: Requires financial institutions to explain their information-sharing practices to their customers and to safeguard sensitive customer information.
-
-**Health Information Portability and Accountability Act**: HIPAA assures that an individual’s health information is properly protected by setting use and disclosure standards.
+| Regulation | Description |
+|------------|-------------|
+| **General Data Protection Regulation (GDPR)** | GDPR is a European Union regulation that protects the personal data of EU citizens and residents. |
+| **Health Information Portability and Accountability Act (HIPAA)** | HIPAA assures that an individual’s health information is properly protected by setting use and disclosure standards. |
+| **California Consumer Privacy Act (CCPA)** | The CCPA is a state statute intended to enhance privacy rights and consumer protection for residents of California, United States. The CCPA is the first state statute to require businesses to provide consumers with the ability to opt-out of the sale of their personal information. |
 
 </div>
 
