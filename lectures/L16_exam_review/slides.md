@@ -37,6 +37,7 @@ revealOptions:
 
 - Office hours from 1-2P today in Mudd. 
 
+- [CTECs are open](https://canvas.northwestern.edu/courses/226962/external_tools/8871)! Please take a moment to fill them out.
 
 <!--s-->
 
@@ -47,6 +48,23 @@ revealOptions:
 3. Ensure that you can log in to your Northwestern University Canvas account using the browser.
 
 **Note**: I have enabled the Monitoring feature for students that are unable to join us in-person, but I ask that everyone use it to ensure a fair testing environment.
+
+<!--s-->
+
+<div class = "col-wrapper">
+  <div class="c1 col-centered">
+    <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
+
+  # Intro Poll
+  ## On a scale of 1-5, how confident are you feeling about Exam Part II?
+
+  </div>
+  </div>
+  <div class="c2" style="width: 50%; height: 100%;">
+  <iframe src="https://drc-cs-9a3f6.firebaseapp.com/?label=Intro Poll" width="100%" height="100%" style="border-radius: 10px"></iframe>
+  </div>
+
+</div>
 
 <!--s-->
 
@@ -278,3 +296,22 @@ The exam is approximately 60/40 in point value between Part I and Part II and of
 - Know GDPR, CCPA, and HIPAA and how they relate to data science.
 
 - Differentiate between opt-in and opt-out consent.
+
+<!--s-->
+
+<div class = "col-wrapper">
+  <div class="c1 col-centered">
+    <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
+
+  # Exit Poll
+  ## On a scale of 1-5, how confident are you feeling about Exam Part II?
+
+  </div>
+  </div>
+  <div class="c2" style="width: 50%; height: 100%;">
+  <iframe src="https://drc-cs-9a3f6.firebaseapp.com/?label=Exit Poll" width="100%" height="100%" style="border-radius: 10px"></iframe>
+  </div>
+
+</div>
+
+<!--s-->
