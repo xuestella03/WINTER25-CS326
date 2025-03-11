@@ -33,6 +33,10 @@ revealOptions:
 
 ## Announcements
 
+- Exam Part II will take place on Thursday at 11A.
+
+- Office hours from 1-2P today in Mudd. 
+
 
 <!--s-->
 
@@ -60,7 +64,7 @@ You will **not** be expected to do any programming on the exam. You will be aske
 
 The following topics will likely be covered on the exam -- they are not exhaustive but should give you a good idea of what to expect. Anything talked about in lecture or on your homework is fair game. 
 
-You will be notified on Tuesday about the relative question split (Part I / Part II), after the exam is written.
+The exam is approximately 60/40 in point value between Part I and Part II and of the course.
 
 <!--s-->
 
