@@ -157,6 +157,8 @@ You will be notified on Tuesday about the relative question split (Part I / Part
 
 - Understand the intuition behind the cross-entropy loss function.
 
+- Know that logistic regression is just a linear regression model with a sigmoid function applied to the output.
+
 <!--s-->
 
 # H.03 | Machine Learning
@@ -247,8 +249,6 @@ You will be notified on Tuesday about the relative question split (Part I / Part
 
 - Explain the intuition behind a Markov model and how it is used in text analysis.
 
-- Explain perplexity, bleu, and rouge in the context of text analysis.
-
 <!--s-->
 
 # L.14 | Natural Language Processing II
@@ -261,9 +261,7 @@ You will be notified on Tuesday about the relative question split (Part I / Part
 
 - Differentiate between a CBOW and Skip-Gram model.
 
-- Know how BART vs BERT work in the context of encoder / decoder models.
-
-- Know what vector databases do and how they are used in NLP.
+- Know what vector databases do and how they are used in NLP / RAG systems.
 
 <!--s-->
 
