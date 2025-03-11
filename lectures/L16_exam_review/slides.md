@@ -76,13 +76,13 @@ revealOptions:
 
 <!--s-->
 
-## Ground Rules
+## Exam Part II
 
 You will **not** be expected to do any programming on the exam. You will be asked to interpret code, identify errors, and explain concepts. The exam will be **closed book** and **closed notes**. You will not be allowed to use any resources during the exam. You will not need a calculator.
 
 The following topics will likely be covered on the exam -- they are not exhaustive but should give you a good idea of what to expect. Anything talked about in lecture or on your homework is fair game. 
 
-The exam is approximately 60/40 in point value between Part I and Part II and of the course.
+The exam is approximately 60/40 in point value between Part I and Part II and of the course. There are ~ 50 questions written as of today.
 
 <!--s-->
 
